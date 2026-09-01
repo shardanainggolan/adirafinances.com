@@ -6,7 +6,7 @@ import { ADIRA, AGEN, SITE_URL, waLink } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Kebijakan Privasi",
   description:
-    "Bagaimana adirafinances.com memperlakukan data pengunjung: tanpa formulir, tanpa cookie pelacak, dan tanpa layanan analitik. Disusun mengacu pada UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi.",
+    "Bagaimana adirafinances.com memperlakukan data pengunjung: data apa yang dikumpulkan lewat Google Analytics, apa yang tidak kami simpan, dan cara menolaknya. Disusun mengacu pada UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi.",
   alternates: { canonical: "/kebijakan-privasi" },
   openGraph: {
     type: "article",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/kebijakan-privasi`,
     title: "Kebijakan Privasi — adirafinances.com",
     description:
-      "Bagaimana adirafinances.com memperlakukan data pengunjung: tanpa formulir, tanpa cookie pelacak, tanpa analitik.",
+      "Bagaimana adirafinances.com memperlakukan data pengunjung: apa yang dikumpulkan, apa yang tidak, dan cara menolaknya.",
   },
 };
 

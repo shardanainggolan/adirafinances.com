@@ -6,7 +6,18 @@
  * Lihat `.claude/skills/seo-adira/SKILL.md`.
  */
 
-export const SITE_URL = "https://adirafinances.com";
+/**
+ * Host kanonik — HARUS sama dengan tujuan redirect di
+ * `deploy/nginx/adirafinances.com.conf`.
+ *
+ * nginx mengarahkan apex ke www. Kalau konstanta ini menyebut apex sementara
+ * nginx mengarahkan ke www, setiap halaman mengirim dua sinyal yang
+ * bertentangan: Google mengikuti redirect ke www, lalu membaca tag canonical
+ * yang menunjuk balik ke apex. Nilai ini menentukan canonical, sitemap, robots,
+ * OG url, dan seluruh `@id` pada JSON-LD sekaligus — jadi keduanya harus
+ * berubah bersamaan.
+ */
+export const SITE_URL = "https://www.adirafinances.com";
 
 /**
  * Google Analytics 4.
