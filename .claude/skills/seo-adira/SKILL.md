@@ -492,6 +492,39 @@ avoiding it. Use kab/kota as grouping headings inside province pages. **Never
 create pages for the 233 kab/kota with no branch** — filling them with a
 "nearest branch" is doorway abuse in its purest form.
 
+**Branch pages built so far, and the rule they established (2026-09-08):**
+
+| Page | Shape | Gate vs sibling (`<main>`) |
+|---|---|---|
+| `/adira-finance-alam-sutera` | location-first: address → Tangerang/Tangsel → kecamatan → nearby → FAQ | — |
+| `/adira-finance-sawangan` | process-first: dark hero → 4 numbered steps → `<dl>` facts → Depok comparison table → document checklist → dark close | **11.8%** |
+
+The rule: **each branch page gets its own information architecture, not a
+refilled template.** A simulated same-template sibling measured 43.7–45.6%
+identical; a genuinely re-designed sibling measured 11.8%. The gate
+(`scripts/cek-doorway.mjs`, project threshold 50%, not a Google number) is what
+decides — run it against the nearest existing branch page before publishing.
+
+What made Sawangan distinct without inventing anything: the branch is named
+after Jl. Raya Sawangan but sits in Kec. Pancoran Mas (kelurahan Rangkapan
+Jaya) — Kecamatan Sawangan is elsewhere on the same road; Depok has four Adira
+entries so a comparison table earns its place; the query intent is
+transactional, so the process leads.
+
+**Dataset anomalies excluded from the Sawangan page — do not "fix" by
+guessing:** *Juanda – Depok* (id 24 area) carries the Margonda address
+(Jl. Margonda Raya 88 A-C) but a pin 0.86 km from Sawangan, ~4 km off; *Parung
+Panjang – Bogor* has sub_district + coordinates in **Parung** (7.4 km away)
+while its name points ~25 km west. Both left off until the owner confirms.
+
+**Dark sections need per-element colour classes.** The compiled template CSS
+sets colours on `h1`, `h2`, `p`, `a` at element level, so `text-white` on a
+`bg-primary` section does **not** cascade — the audit found 1.00:1 and 1.08:1
+contrast on the hero. Put `text-white` / `text-secondary` on every text node
+inside a dark section. Also absent from the compiled CSS: `sm:text-4xl`
+(use `md:text-4xl`), `sm:w-1/3` (use `md:w-48`), `overflow-x-auto` (inline
+`style={{overflowX:"auto"}}` on a table wrapper).
+
 **Corrected 2026-09-01:** an earlier answer framed `/adira-finance-tebet` as
 claiming a branch that might not exist. The Tebet branch does exist (row 1). The
 actual risk is narrower and still real — the page reads as that branch's

@@ -63,7 +63,11 @@ export default function WilayahLayanan() {
                 <Link className="text-primary font-semibold underline" href="/adira-finance-alam-sutera">
                   cabang Alam Sutera, Serpong Utara
                 </Link>{" "}
-                &mdash; berisi alamat, telepon cabang, dan cabang terdekat lainnya.
+                dan{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-sawangan">
+                  cabang Sawangan, Depok
+                </Link>{" "}
+                &mdash; masing-masing berisi alamat, telepon cabang, dan cabang terdekat lainnya.
               </p>
 
               <div className="mt-8">
