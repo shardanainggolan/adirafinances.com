@@ -498,9 +498,24 @@ create pages for the 233 kab/kota with no branch** — filling them with a
 |---|---|---|
 | `/adira-finance-alam-sutera` | location-first: address → Tangerang/Tangsel → kecamatan → nearby → FAQ | — |
 | `/adira-finance-sawangan` | process-first: dark hero → 4 numbered steps → `<dl>` facts → Depok comparison table → document checklist → dark close | **11.8%** |
+| `/adira-finance-ciputat` (2026-09-14) | arrival-first: white hero with the address typeset as a card → landmark ledger with measured distance bars (OSM) → two naming pitfalls side by side (Ciputat vs Ciputat Timur; Tangsel vs Jakarta) → map + phones → nearby branches grouped by origin city → 3-line application pointer → light dashed close | **10.4%** vs Alam Sutera, **11.4%** vs Sawangan |
 
 The rule: **each branch page gets its own information architecture, not a
-refilled template.** A simulated same-template sibling measured 43.7–45.6%
+refilled template.**
+
+What made Ciputat distinct without inventing anything: all four target
+queries are informational and one is literally "alamat …", so the address is
+the object of the page; OSM (Overpass, 2.5 km radius) supplies seven named
+landmarks and four trunk/secondary roads with straight-line distances — a
+verifiable, per-branch fact set no sibling has; Tangsel has two kecamatan
+named Ciputat (office is in *Ciputat*, UIN campus is in *Ciputat Timur* —
+both confirmed against OSM admin boundaries at the actual coordinates); and
+the nearest other branch is across the provincial border in Jakarta Selatan.
+Excluded on data grounds: Juanda–Depok and Parung Panjang (as before) plus
+*Sentra Cikarang*, whose pin lands 11.8 km from Ciputat inside DKI — Cikarang
+is tens of km east, so the coordinate is wrong. Still unverified, still not
+published: opening hours, the ruko block number as signed on site, turn-by-turn
+directions. A simulated same-template sibling measured 43.7–45.6%
 identical; a genuinely re-designed sibling measured 11.8%. The gate
 (`scripts/cek-doorway.mjs`, project threshold 50%, not a Google number) is what
 decides — run it against the nearest existing branch page before publishing.
