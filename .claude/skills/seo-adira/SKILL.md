@@ -500,6 +500,54 @@ create pages for the 233 kab/kota with no branch** — filling them with a
 | `/adira-finance-sawangan` | process-first: dark hero → 4 numbered steps → `<dl>` facts → Depok comparison table → document checklist → dark close | **11.8%** |
 | `/adira-finance-ciputat` (2026-09-14) | arrival-first: white hero with the address typeset as a card → landmark ledger with measured distance bars (OSM) → two naming pitfalls side by side (Ciputat vs Ciputat Timur; Tangsel vs Jakarta) → map + phones → nearby branches grouped by origin city → 3-line application pointer → light dashed close | **10.4%** vs Alam Sutera, **11.4%** vs Sawangan |
 | `/adira-finance-pasar-baru` (2026-09-15) | identity-first: light-grey hero with a bordered "three names, one office" plate (Maps listing / dataset name / what people type) → two-column "yang ini / bukan yang itu" (Tangerang vs Jakarta Pusat) → big-number distance block (nearest branch is cross-city: Alam Sutera 9.5 km, linked) → accent-rule contact block ("satu telepon, dua faks") + map → process split "dari rumah / di cabang" → yellow close | **11.9%** vs Alam Sutera, **10.8%** vs Sawangan, **9.2%** vs Ciputat |
+| `/adira-finance-tajur` (2026-09-16) | comparison-first: two-panel hero (dark title panel / yellow "tiga hal dulu" panel) → mobil-vs-motor spec sheet read from `lib/tabel-angsuran.ts` (plafon range, tenor, NPWP) → "Kota Bogor, bukan Kabupaten" with branches split by administrative area → Maps pin name that does not say Tajur + horizontal contact strip + map → one-paragraph process → bordered-box close | **10.0%** vs Alam Sutera, **12.4%** vs Sawangan, **9.1%** vs Ciputat, **13.1%** vs Pasar Baru |
+
+What made Tajur distinct without inventing anything: one target query is
+"…tajur **mobil**", and the site already holds verified car-vs-motorcycle
+facts (reference table: motor Rp3–20 jt / tenor 11–35, mobil Rp25–200 jt /
+tenor 11–47; NPWP only for cars) — rendered *from* `lib/tabel-angsuran.ts`,
+never retyped; another query spells out "kota bogor jawa barat", and the
+dataset shows why that matters: only two Adira offices sit in **Kota** Bogor
+(Tajur in Bogor Selatan; Soleh Iskandar in Tanah Sereal, 8.8 km) while every
+other "Bogor" branch is in Kabupaten Bogor (Cibinong 18.4, Leuwiliang 20.8,
+Cileungsi 22.3). The Google Maps pin at the coordinates is named *"Kredit
+Adira finance bogor 1 - marketing"* — shown verbatim, "bogor 1"/"marketing"
+explicitly not interpreted. OSM road query (the only one that answered)
+corroborated the address: trunk *Jalan Raya Bogor – Sukabumi* at 0.42 km,
+which also explains Cicurug (Sukabumi, 24.7 km) in the nearby set.
+Parung Panjang excluded again (name/pin conflict). The owner's DB row still
+carried the Pasar Baru `description` — a copy-paste artifact; irrelevant
+because the templated description is never used, but flagged to the owner.
+
+**Three tooling lessons from Tajur — read before the next branch page:**
+
+1. **`md:grid` does not exist in the compiled CSS** while `md:block`,
+   `md:hidden`, `md:grid-cols-2/3`, `sm:grid`, `hidden` do. A responsive
+   show/hide therefore needs `hidden md:block` on a *wrapper* with the grid
+   inside — `hidden md:grid` silently stays hidden on desktop. The template's
+   breakpoints are custom: sm ≥640, md ≥769, lg ≥1025, xl ≥1280.
+2. **The old class checker gave false positives.** Scripts written through a
+   Bash heredoc on this Windows/Git-Bash setup had their `\\` halved, so the
+   escaped selector it searched for was wrong and `css.includes()` matched
+   the wrong thing; `grep 'md\\:grid'` in Git Bash is mangled the same way and
+   reported 0 for classes that *do* exist. Use the escape-safe checker now in
+   the repo, `node scripts/cek-kelas.mjs <file.tsx> …` (builds the backslash
+   with `String.fromCharCode(92)`, checks for a rule boundary after the
+   selector, exits non-zero on any missing class), or — the only proof that
+   cannot lie — render at 390 and 1200 px and measure. Re-audited all five branch pages with it: only `md:grid` was
+   missing; the earlier pages were fine by luck of not using it.
+3. **Restart production servers by PID.** `taskkill /FI WINDOWTITLE` does not
+   hit a backgrounded `bun run start`; the new `start` fails with
+   EADDRINUSE and the *stale* build keeps serving, so every "after the fix"
+   measurement silently tests the old page. Kill via
+   `netstat -ano | grep :3010` → `taskkill /PID`, then confirm the served
+   HTML contains the change before trusting any number.
+
+Also from Tajur: a three-column spec sheet does not fit 390 px (a 13-char
+"Rp200.000.000" exceeds an 87 px cell), so it stacks below `md` with
+`md:hidden` "Motor:/Mobil:" labels; and `1fr` tracks must be `minmax(0,1fr)`
+or long tokens push the grid past the viewport. Contrast 0/106 with the dark
+panel — per-element `text-white`, as §8 already says.
 
 What made Pasar Baru distinct without inventing anything: one target query is
 the Google Maps listing name verbatim — *"PT. ADIRA FINANCE 0128 PS. BARU"*,

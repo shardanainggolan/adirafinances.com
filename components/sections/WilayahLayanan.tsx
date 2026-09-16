@@ -71,9 +71,13 @@ export default function WilayahLayanan() {
                 <Link className="text-primary font-semibold underline" href="/adira-finance-ciputat">
                   cabang Ciputat, Tangerang Selatan
                 </Link>
-                , dan{" "}
+                ,{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-pasar-baru">
                   cabang Pasar Baru, Tangerang
+                </Link>
+                , dan{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-tajur">
+                  cabang Tajur, Kota Bogor
                 </Link>{" "}
                 &mdash; masing-masing berisi alamat, telepon cabang, dan cabang terdekat lainnya.
               </p>
