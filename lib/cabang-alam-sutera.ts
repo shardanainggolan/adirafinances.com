@@ -60,7 +60,7 @@ export const KECAMATAN_TANGSEL = [
  */
 export const CABANG_TERDEKAT = [
   { nama: "Adira Finance Ciledug", wilayah: "Kota Tangerang", km: 7.5 },
-  { nama: "Adira Finance Pasar Baru", wilayah: "Kota Tangerang", km: 9.5 },
+  { nama: "Adira Finance Pasar Baru", wilayah: "Kota Tangerang", km: 9.5, href: "/adira-finance-pasar-baru" },
   { nama: "Adira Finance Ciputat", wilayah: "Kota Tangerang Selatan", km: 12.9 },
   { nama: "Adira Finance Daan Mogot", wilayah: "Kota Jakarta Barat", km: 13.3 },
   { nama: "Adira Finance Citra Raya", wilayah: "Kabupaten Tangerang", km: 14.8 },
