@@ -499,6 +499,34 @@ create pages for the 233 kab/kota with no branch** — filling them with a
 | `/adira-finance-alam-sutera` | location-first: address → Tangerang/Tangsel → kecamatan → nearby → FAQ | — |
 | `/adira-finance-sawangan` | process-first: dark hero → 4 numbered steps → `<dl>` facts → Depok comparison table → document checklist → dark close | **11.8%** |
 | `/adira-finance-ciputat` (2026-09-14) | arrival-first: white hero with the address typeset as a card → landmark ledger with measured distance bars (OSM) → two naming pitfalls side by side (Ciputat vs Ciputat Timur; Tangsel vs Jakarta) → map + phones → nearby branches grouped by origin city → 3-line application pointer → light dashed close | **10.4%** vs Alam Sutera, **11.4%** vs Sawangan |
+| `/adira-finance-pasar-baru` (2026-09-15) | identity-first: light-grey hero with a bordered "three names, one office" plate (Maps listing / dataset name / what people type) → two-column "yang ini / bukan yang itu" (Tangerang vs Jakarta Pusat) → big-number distance block (nearest branch is cross-city: Alam Sutera 9.5 km, linked) → accent-rule contact block ("satu telepon, dua faks") + map → process split "dari rumah / di cabang" → yellow close | **11.9%** vs Alam Sutera, **10.8%** vs Sawangan, **9.2%** vs Ciputat |
+
+What made Pasar Baru distinct without inventing anything: one target query is
+the Google Maps listing name verbatim — *"PT. ADIRA FINANCE 0128 PS. BARU"*,
+read from `gmaps_link` — so the page's job is reconciling three names to one
+address; "Pasar Baru" is better known as the Jakarta Pusat shopping district,
+so the disambiguation is the second object; Kota Tangerang has 13 kecamatan
+but only two Adira offices (here and Ciledug), and the nearest branch by
+straight line is Alam Sutera in Tangsel (9.5 km) — closer than Ciledug (11.9)
+— which is a legitimate cross-link because we already have that page. The
+dataset's one phone + two fax numbers are shown as-is and said to be so.
+**The "0128" in the Maps name is displayed verbatim and explicitly not
+interpreted** — no source explains it, so it is not called a "kode cabang".
+
+Verification limits, recorded so nobody "fills them in" later: the OSM
+name-search for the Pasar Baru market and for Jakarta's Pasar Baru timed out
+on all four Overpass mirrors (2026-09-15); only a road query answered, and it
+corroborated the address — primary road *Jalan Muhammad Thoha* at 0.47 km,
+trunk *Jalan Otto Iskandar Dinata* at 0.62 km. So the Jakarta disambiguation
+is written **without a distance figure**; the Jakarta-side reference is the
+dataset's own Ketapang branch (Gambir, 21.2 km). Still unpublished: opening
+hours, phone/fax liveness, branch photo.
+
+Housekeeping found on the way: `/adira-finance-ciputat` had **no inbound
+links** (sitemap only) since it was built — fixed in the homepage
+WilayahLayanan paragraph, which now names all four branch pages. The Alam
+Sutera nearby-list renders a link when an entry carries `href`; only Pasar
+Baru has one. Meta description trimmed from 223 to 164 chars. Contrast 0/105.
 
 The rule: **each branch page gets its own information architecture, not a
 refilled template.**
@@ -579,6 +607,44 @@ pages.
 4. `AREA_LAYANAN` in `lib/site.ts` (9 regional areas, mirroring the Adira
    simulation system) is a defensible geographic structure precisely because it
    is not invented for keywords.
+
+**Publishing cadence for branch pages.** Asked 2026-09-15: is one branch page
+per day safe? Verified the same day against a primary Google source, because
+this was not yet in the skill.
+
+Google's own position, from John Mueller: *"Publishing frequency alone does
+not make something spam."* And: *"Posting every day is fine, if you have new
+& relevant things to post every day."* Source:
+[Search Engine Roundtable](https://www.seroundtable.com/google-publishing-frequency-spam-34744.html),
+quoting Mueller — third-party report of a Google statement, not Search Central
+documentation, so treat it as reliable but not primary-source-grade.
+
+So a daily cadence is not itself unsafe. **The actual risk is what a fixed
+quota does to the work**, not the calendar interval:
+
+- The three branch pages built so far (Alam Sutera, Sawangan, Ciputat) each
+  took real per-branch research — OSM landmark queries, anomaly checks against
+  the dataset, a from-scratch information architecture, then the doorway gate
+  — before clearing 10–12% similarity to their nearest sibling. That is what
+  keeps them off the shape that sank adiracabang.id. A "1 page/day, no matter
+  what" quota pressures exactly that step to get skipped once the easy
+  branches run out, which is how a genuinely safe practice degrades into the
+  372-page mould without anyone deciding to make bad pages on purpose.
+- The real ceiling is not pace, it is inventory: build only where "a real
+  address, the kecamatan actually covered, and genuine agent coverage all
+  exist" (§8 above) — a dozen or so branches in the actual operating area, not
+  a march toward all 372. Publishing daily until the legitimate list is
+  exhausted, then stopping, is sound; publishing daily indefinitely by
+  loosening the inclusion bar is the adiracabang.id pattern again.
+- A steady one-a-day pace has a real, non-mythical upside: it gives Search
+  Console time to show how each URL is doing (indexed, excluded, any manual
+  action) before the next one compounds the risk. That is operational
+  prudence, not a Google ranking mechanism — do not present it to the owner as
+  one.
+
+**The rule to give the owner:** cadence is not the gate. The doorway-gate
+script and the inclusion criteria in §8 are the gate. Keep running them on
+every new page regardless of how fast or slow the schedule is.
 
 ---
 

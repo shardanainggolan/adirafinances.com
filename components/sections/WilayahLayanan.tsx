@@ -62,10 +62,18 @@ export default function WilayahLayanan() {
                 Sudah ada halaman untuk{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-alam-sutera">
                   cabang Alam Sutera, Serpong Utara
-                </Link>{" "}
-                dan{" "}
+                </Link>
+                ,{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-sawangan">
                   cabang Sawangan, Depok
+                </Link>
+                ,{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-ciputat">
+                  cabang Ciputat, Tangerang Selatan
+                </Link>
+                , dan{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-pasar-baru">
+                  cabang Pasar Baru, Tangerang
                 </Link>{" "}
                 &mdash; masing-masing berisi alamat, telepon cabang, dan cabang terdekat lainnya.
               </p>

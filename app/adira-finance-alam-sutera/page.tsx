@@ -267,7 +267,17 @@ export default function AlamSuteraPage() {
                 key={item.nama}
               >
                 <span className="flex-1 text-title_black">
-                  <strong className="font-semibold">{item.nama}</strong>
+                  <strong className="font-semibold">
+                    {/* Cabang yang sudah punya halamannya sendiri ditautkan —
+                        tautan silang antar-cabang hanya bila memang bertetangga. */}
+                    {"href" in item ? (
+                      <Link className="underline hover:text-primary" href={item.href}>
+                        {item.nama}
+                      </Link>
+                    ) : (
+                      item.nama
+                    )}
+                  </strong>
                   <span className="block text-paragraph_black">{item.wilayah}</span>
                 </span>
                 <span className="text-paragraph_black">{item.km} km</span>
