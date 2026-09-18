@@ -501,6 +501,37 @@ create pages for the 233 kab/kota with no branch** — filling them with a
 | `/adira-finance-ciputat` (2026-09-14) | arrival-first: white hero with the address typeset as a card → landmark ledger with measured distance bars (OSM) → two naming pitfalls side by side (Ciputat vs Ciputat Timur; Tangsel vs Jakarta) → map + phones → nearby branches grouped by origin city → 3-line application pointer → light dashed close | **10.4%** vs Alam Sutera, **11.4%** vs Sawangan |
 | `/adira-finance-pasar-baru` (2026-09-15) | identity-first: light-grey hero with a bordered "three names, one office" plate (Maps listing / dataset name / what people type) → two-column "yang ini / bukan yang itu" (Tangerang vs Jakarta Pusat) → big-number distance block (nearest branch is cross-city: Alam Sutera 9.5 km, linked) → accent-rule contact block ("satu telepon, dua faks") + map → process split "dari rumah / di cabang" → yellow close | **11.9%** vs Alam Sutera, **10.8%** vs Sawangan, **9.2%** vs Ciputat |
 | `/adira-finance-tajur` (2026-09-16) | comparison-first: two-panel hero (dark title panel / yellow "tiga hal dulu" panel) → mobil-vs-motor spec sheet read from `lib/tabel-angsuran.ts` (plafon range, tenor, NPWP) → "Kota Bogor, bukan Kabupaten" with branches split by administrative area → Maps pin name that does not say Tajur + horizontal contact strip + map → one-paragraph process → bordered-box close | **10.0%** vs Alam Sutera, **12.4%** vs Sawangan, **9.1%** vs Ciputat, **13.1%** vs Pasar Baru |
+| `/adira-finance-tebet` (2026-09-18) | verification-first: white single-column hero (address stated in prose, deliberately *not* a card — Ciputat owns that) → "tiga cara memastikan ini cabang Tebet" as three numbered cards, with the full address, phones and **the map inside that section as evidence** rather than as a contact footer → six-DKI-branch table with this row highlighted → gadai BPKB led by motor → two-column close (CTA left, branch phones right) | **9.4%** vs Alam Sutera, **10.4%** vs Sawangan, **7.8%** vs Ciputat, **12.0%** vs Pasar Baru, **13.8%** vs Tajur |
+
+What made Tebet distinct without inventing anything: its Google Maps pin is
+named just **"Adira Finance"** — no branch name at all, the mirror image of
+Pasar Baru's oddly specific pin — while the dataset holds **six** Adira
+offices in DKI Jakarta whose pins can look identical, so the page's job is
+telling them apart (street name / kelurahan / postcode). The address carries
+two place names that are both correct: kecamatan **Tebet**, kelurahan **Bukit
+Duri**. Jakarta Selatan has 10 kecamatan but only two offices (Tebet and
+Pondok Indah Baru, 9.0 km), and three branches in *other* kota are nearer than
+the second Jaksel one (Kelapa Gading 7.8, Ketapang 8.6). Motor leads the
+gadai-BPKB section because "…tebet **motor**" is a target query: no NPWP for
+motorcycles, plafon/tenor read from `TABEL_MOTOR`, never retyped.
+
+**The Sentra Cikarang bad pin resurfaced and is now documented on-page.** Its
+stored coordinate (−6.2363828 / 106.8115813) puts it **5.1 km from Tebet,
+inside Jakarta**, and therefore at the top of any nearest-branch sort — while
+its name, address (Jl. Raya Cibarusah) and kecamatan (Cikarang Selatan, Kab.
+Bekasi) all say Cikarang, and the point sits **19.0 km from the other Cikarang
+branch in the same kecamatan**. Excluded from the table, with the reason
+printed in the footnote rather than silently dropped. Expect this record to
+keep surfacing on any Jakarta-area branch page; it is the same anomaly logged
+for Ciputat.
+
+Environment note (2026-09-18): `.id` domains were unreachable from this
+machine again (connection reset, the same network-level filter seen on
+2026-09-01), so the gate could not be run against the old
+adiracabang.id Tebet page this session. The five sibling comparisons are the
+ones that decide, and all five passed. Meta description trimmed 200 → 175
+chars and reworded to lead with "Alamat", matching the dominant query.
+Contrast 0/122; the six-row DKI table scrolls inside its own wrapper at 390 px.
 
 What made Tajur distinct without inventing anything: one target query is
 "…tajur **mobil**", and the site already holds verified car-vs-motorcycle
