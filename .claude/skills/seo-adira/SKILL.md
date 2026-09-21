@@ -502,6 +502,39 @@ create pages for the 233 kab/kota with no branch** — filling them with a
 | `/adira-finance-pasar-baru` (2026-09-15) | identity-first: light-grey hero with a bordered "three names, one office" plate (Maps listing / dataset name / what people type) → two-column "yang ini / bukan yang itu" (Tangerang vs Jakarta Pusat) → big-number distance block (nearest branch is cross-city: Alam Sutera 9.5 km, linked) → accent-rule contact block ("satu telepon, dua faks") + map → process split "dari rumah / di cabang" → yellow close | **11.9%** vs Alam Sutera, **10.8%** vs Sawangan, **9.2%** vs Ciputat |
 | `/adira-finance-tajur` (2026-09-16) | comparison-first: two-panel hero (dark title panel / yellow "tiga hal dulu" panel) → mobil-vs-motor spec sheet read from `lib/tabel-angsuran.ts` (plafon range, tenor, NPWP) → "Kota Bogor, bukan Kabupaten" with branches split by administrative area → Maps pin name that does not say Tajur + horizontal contact strip + map → one-paragraph process → bordered-box close | **10.0%** vs Alam Sutera, **12.4%** vs Sawangan, **9.1%** vs Ciputat, **13.1%** vs Pasar Baru |
 | `/adira-finance-tebet` (2026-09-18) | verification-first: white single-column hero (address stated in prose, deliberately *not* a card — Ciputat owns that) → "tiga cara memastikan ini cabang Tebet" as three numbered cards, with the full address, phones and **the map inside that section as evidence** rather than as a contact footer → six-DKI-branch table with this row highlighted → gadai BPKB led by motor → two-column close (CTA left, branch phones right) | **9.4%** vs Alam Sutera, **10.4%** vs Sawangan, **7.8%** vs Ciputat, **12.0%** vs Pasar Baru, **13.8%** vs Tajur |
+| `/adira-finance-pondok-gede` (2026-09-21) | **Q&A spine**: every `<h2>` is a question a reader actually asks, each answered by a one-sentence lead set off with a left accent rule, then the detail. Yellow hero → "Alamatnya di mana persisnya?" (+ map, phone, Maps-pin name in a `<dl>`-style strip) → "Kenapa alamatnya Pondok Melati, bukan Pondok Gede?" → "Bisa gadai BPKB motor dan mobil di sini?" (+ 3-step card) → "Kalau ada cabang lain yang lebih dekat?" → close | **9.4%** Alam Sutera, **10.2%** Sawangan, **9.2%** Ciputat, **11.7%** Pasar Baru, **13.0%** Tajur, **17.4%** Tebet |
+
+What made Pondok Gede distinct without inventing anything: Kota Bekasi holds
+**both** a Kecamatan Pondokgede (BPS 3275010) *and* a Kecamatan Pondokmelati
+(3275012); the office sits in **Pondok Melati**, kelurahan Jatirahayu, while
+its name borrows the better-known neighbouring area — a sharper version of the
+Sawangan naming case because both kecamatan are in the same kota. Its Maps pin
+reads *"Adira finance gadai bpkb"* — a service description, the third distinct
+pin pathology after Pasar Baru's over-specific name and Tebet's bare "Adira
+Finance". The dataset gives it **one phone and no fax at all**, stated on the
+page as a fact rather than padded around. The nearest branch crosses a
+province line — Tebet, DKI, 8.3 km, nearer than either of the two Adira
+offices in the same city — and since Tebet already has a page, that is the
+first genuine branch-to-branch cross-link. Sentra Cikarang surfaced a third
+time (11.0 km) and was excluded again.
+
+**Watch item — the union metric is drifting, the gate is not.** Combined
+normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
+Pondok Gede 41.5% (unique 58.5%). That is arithmetic, not decay: each new page
+is measured against a corpus that grows by one page every time, and site chrome
+plus mandatory disclosures are counted in it. The number that decides is
+**pairwise**, and the worst pair so far is Pondok Gede vs Tebet at 17.4% —
+both Jakarta-area pages discussing nearby branches. Still a third of the
+threshold, but expect pairwise figures to climb as the Jabodetabek set fills
+in; if a pair ever passes ~30%, redesign the newer page's architecture rather
+than trimming sentences.
+
+**Tooling fix shipped with this page.** `scripts/cek-kelas.mjs` only read
+`className="…"` literals, so classes inside ``className={`…`}`` — and inside a
+`const` holding a class string used in a `className={}` — were never checked.
+It now reads both and strips `${…}` interpolations; re-running it over all
+seven branch pages found 4 previously-unchecked classes on this page and zero
+missing ones anywhere.
 
 What made Tebet distinct without inventing anything: its Google Maps pin is
 named just **"Adira Finance"** — no branch name at all, the mirror image of

@@ -48,7 +48,22 @@ let gagal = 0;
 for (const f of files) {
   const src = readFileSync(resolve(ROOT, f), "utf8");
   const kelas = new Set();
-  for (const m of src.matchAll(/className="([^"]+)"/g)) m[1].split(/\s+/).filter(Boolean).forEach((c) => kelas.add(c));
+  const petik = (teks) =>
+    teks
+      // Buang bagian ${...} dari template literal — itu nilai, bukan kelas.
+      .replace(/\$\{[^}]*\}/g, " ")
+      .split(/\s+/)
+      .filter(Boolean)
+      .forEach((c) => kelas.add(c));
+
+  // className="..."
+  for (const m of src.matchAll(/className="([^"]*)"/g)) petik(m[1]);
+  // className={`...`} dan konstanta bertipe template/string yang berisi kelas
+  for (const m of src.matchAll(/className=\{`([^`]*)`\}/g)) petik(m[1]);
+  // const x = "kelas kelas" / const x = `kelas kelas` yang dipakai di className
+  for (const m of src.matchAll(/const\s+(\w+)\s*=\s*[`"]([^`"]*)[`"]/g)) {
+    if (new RegExp(`className=\\{[^}]*\\b${m[1]}\\b`).test(src)) petik(m[2]);
+  }
   const hilang = [...kelas].filter((c) => !ada(c));
   console.log(`${f}: ${kelas.size} kelas, ${hilang.length} TIDAK ADA${hilang.length ? " -> " + hilang.join(" ") : ""}`);
   gagal += hilang.length;
