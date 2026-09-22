@@ -217,9 +217,15 @@ export default function PondokGedePage() {
               keduanya bersebelahan. Jadi kalau Anda mencari &ldquo;Adira Finance Pondok Gede&rdquo; lalu peta
               menunjukkan Pondok Melati, itu bukan salah alamat &mdash; keduanya menunjuk kantor yang sama.
             </p>
+            {/* Daftar lengkap {KECAMATAN_KOTA_BEKASI.length} kecamatan sengaja
+                TIDAK dicetak di sini. Daftar itu load-bearing di halaman
+                Harapan Indah (untuk membuktikan "Harapan Indah" tidak ada di
+                dalamnya); di halaman ini yang penting cuma dua namanya, dan
+                mencetak keduabelasnya membuat dua halaman berbagi satu blok
+                identik sepanjang 24 kata. Diukur 2026-09-22. */}
             <p className="mt-4 text-paragraph_black">
-              Lengkapnya, Kota Bekasi punya {KECAMATAN_KOTA_BEKASI.length} kecamatan:{" "}
-              {KECAMATAN_KOTA_BEKASI.join(", ")}.
+              Keduanya termasuk dalam {KECAMATAN_KOTA_BEKASI.length} kecamatan Kota Bekasi. Dari tiga kantor Adira
+              yang ada di kota ini, cuma yang ini yang berdiri di {CABANG.kecamatan}.
             </p>
           </div>
         </div>
@@ -322,7 +328,15 @@ export default function PondokGedePage() {
             {DI_KOTA_BEKASI.map((c) => (
               <li className="flex items-start gap-3 p-4 bg-white border border-border rounded-xl" key={c.nama}>
                 <span className="flex-1 text-title_black">
-                  <strong className="font-semibold">{c.nama}</strong>
+                  <strong className="font-semibold">
+                    {c.href ? (
+                      <Link className="underline hover:text-primary" href={c.href}>
+                        {c.nama}
+                      </Link>
+                    ) : (
+                      c.nama
+                    )}
+                  </strong>
                   <span className="block text-paragraph_black">Kecamatan {c.kecamatan}, sekota</span>
                 </span>
                 <span className="text-paragraph_black whitespace-nowrap">

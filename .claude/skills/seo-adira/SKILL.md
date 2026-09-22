@@ -518,16 +518,53 @@ offices in the same city — and since Tebet already has a page, that is the
 first genuine branch-to-branch cross-link. Sentra Cikarang surfaced a third
 time (11.0 km) and was excluded again.
 
+| `/adira-finance-harapan-indah` (2026-09-22) | **address-anatomy spine**: white hero with the full address set as one large line (not a card — Ciputat owns that, not a plate — Pasar Baru owns that) → the address dismantled part by part (street / number / kecamatan / kota+provinsi / postcode / coordinates), each with one genuinely useful navigation note, beside the map, phones and a dashed "why Harapan Indah isn't in the kecamatan list" box → nearby branches split Jakarta vs Bekasi → gadai BPKB → close | **9.6%** Alam Sutera, **8.4%** Sawangan, **7.8%** Ciputat, **11.3%** Pasar Baru, **11.3%** Tajur, **12.5%** Tebet, **15.5%** Pondok Gede |
+
+What made Harapan Indah distinct without inventing anything: **"Harapan Indah"
+is not a kecamatan.** Kota Bekasi's twelve kecamatan contain no such name — the
+office is in **Medan Satria**, and Harapan Indah is the township and the
+boulevard. Two phones, no fax. Maps pin reads the bare "Adira Finance", same
+pathology as Tebet. Its position on the northwest edge of Kota Bekasi means
+Adira's Kelapa Gading branch in North Jakarta (10.0 km) is nearer than either
+office in its own city (14.8 and 14.9 km).
+
+**Both Cikarang records are wrong, not just one.** Previously only *Sentra
+Cikarang* was logged. A longitude-ordering test on 2026-09-22 settles it:
+Cikarang lies **east** of Tambun, yet in the dataset Tambun sits at longitude
+107.0697 while *Cikarang - Bekasi* is at 106.9831 and *Sentra Cikarang* at
+106.8116 — both **west** of Tambun, which is geographically impossible, and
+they are 19 km apart while both claiming kecamatan Cikarang Selatan. The
+consequence is concrete here: a raw nearest-branch sort puts *Cikarang -
+Bekasi* at 7.8 km, top of the list, and that is false. Exclude **both** from
+every Bekasi-area page. Use this longitude/latitude ordering test whenever a
+"nearest branch" result looks surprising — it is cheap and it catches pins that
+a distance number alone will hide.
+
+**The pairwise gate caught real duplication, and fixing it worked.** First
+measurement of Harapan Indah vs Pondok Gede came back **23.1%**, the worst pair
+to date. Decomposing the shared runs showed what was mandatory and what was
+sloppy: the 40-word OJK + agent disclosure block and the 22-word `PetaCabang`
+UI text are identical **by design**; but the twelve-kecamatan list of Kota
+Bekasi was printed verbatim on both pages (24 words), and the three process
+steps were near-identical rewordings. Fix: the full list stays only on Harapan
+Indah where it is load-bearing (proving the name is absent from it), Pondok
+Gede now names just the two relevant kecamatan plus a new fact, and Harapan
+Indah's steps were rewritten with different emphasis. Result **23.1% → 15.5%**,
+with every other pair falling too. **Decompose the shared runs before assuming
+a high pair is unavoidable** — the mandatory blocks and the real duplication
+look the same in a single percentage.
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
-Pondok Gede 41.5% (unique 58.5%). That is arithmetic, not decay: each new page
-is measured against a corpus that grows by one page every time, and site chrome
-plus mandatory disclosures are counted in it. The number that decides is
-**pairwise**, and the worst pair so far is Pondok Gede vs Tebet at 17.4% —
-both Jakarta-area pages discussing nearby branches. Still a third of the
-threshold, but expect pairwise figures to climb as the Jabodetabek set fills
-in; if a pair ever passes ~30%, redesign the newer page's architecture rather
-than trimming sentences.
+Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That
+is arithmetic, not decay: each new page is measured against a corpus that grows
+by one page every time, and site chrome plus mandatory disclosures are counted
+in it. The number that decides is **pairwise**, and the worst pair is Pondok
+Gede vs Tebet at 17.4%. Expect pairwise figures to keep climbing as the
+Jabodetabek set fills in — pages in the same kota inevitably share nearby
+branches and administrative context. At ~20%+, decompose the shared runs and
+remove the avoidable half (it works: 23.1% → 15.5%). Only if a pair still sits
+near ~30% after that should the newer page's architecture be redesigned.
 
 **Tooling fix shipped with this page.** `scripts/cek-kelas.mjs` only read
 `className="…"` literals, so classes inside ``className={`…`}`` — and inside a

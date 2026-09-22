@@ -64,8 +64,8 @@ export const KECAMATAN_KOTA_BEKASI = [
 
 /** Dua kantor Adira lain di Kota Bekasi. Jarak lurus dari titik ini. */
 export const DI_KOTA_BEKASI = [
-  { nama: "Adira Finance Bantar Gebang", kecamatan: "Bantargebang", km: 10.4 },
-  { nama: "Adira Finance Harapan Indah", kecamatan: "Medan Satria", km: 14.8 },
+  { nama: "Adira Finance Bantar Gebang", kecamatan: "Bantargebang", km: 10.4, href: null },
+  { nama: "Adira Finance Harapan Indah", kecamatan: "Medan Satria", km: 14.8, href: "/adira-finance-harapan-indah" },
 ] as const;
 
 /**
