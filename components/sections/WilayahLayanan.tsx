@@ -83,9 +83,13 @@ export default function WilayahLayanan() {
                 <Link className="text-primary font-semibold underline" href="/adira-finance-tebet">
                   cabang Tebet, Jakarta Selatan
                 </Link>
-                , dan{" "}
+                ,{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-pondok-gede">
-                  cabang Pondok Gede, Kota Bekasi
+                  cabang Pondok Gede
+                </Link>
+                , dan{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-harapan-indah">
+                  cabang Harapan Indah, Kota Bekasi
                 </Link>{" "}
                 &mdash; masing-masing berisi alamat, telepon cabang, dan cabang terdekat lainnya.
               </p>
