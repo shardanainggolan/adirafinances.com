@@ -78,10 +78,10 @@ export const KAWASAN_BEKASI = [
 ] as const;
 
 /** Dua cabang Jakarta terdekat. Kelapa Gading yang paling dekat dari sini. */
-export const ARAH_JAKARTA = [
-  { nama: "Adira Finance Kelapa Gading", wilayah: "Jakarta Utara", km: 10.0, href: null },
+export const ARAH_JAKARTA: readonly { nama: string; wilayah: string; km: number; href: string | null }[] = [
+  { nama: "Adira Finance Kelapa Gading", wilayah: "Jakarta Utara", km: 10.0, href: "/adira-finance-kelapa-gading" },
   { nama: "Adira Finance Tebet", wilayah: "Jakarta Selatan", km: 13.7, href: "/adira-finance-tebet" },
-] as const;
+];
 
 /**
  * DUA entri Cikarang, bukan satu, koordinatnya keliru.
