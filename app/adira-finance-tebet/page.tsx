@@ -287,7 +287,15 @@ export default function TebetPage() {
               <tbody>
                 {DKI_JAKARTA.map((c) => (
                   <tr className={c.iniHalaman ? "border-t border-border bg-background" : "border-t border-border"} key={c.nama}>
-                    <td className="px-4 py-3 text-title_black font-semibold whitespace-nowrap">{c.nama}</td>
+                    <td className="px-4 py-3 text-title_black font-semibold whitespace-nowrap">
+                      {c.href ? (
+                        <Link className="underline hover:text-primary" href={c.href}>
+                          {c.nama}
+                        </Link>
+                      ) : (
+                        c.nama
+                      )}
+                    </td>
                     <td className="px-4 py-3 text-paragraph_black whitespace-nowrap">{c.kota}</td>
                     <td className="px-4 py-3 text-paragraph_black whitespace-nowrap">{c.kecamatan}</td>
                     <td className="px-4 py-3 text-paragraph_black text-right whitespace-nowrap">

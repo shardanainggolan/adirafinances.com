@@ -554,6 +554,42 @@ with every other pair falling too. **Decompose the shared runs before assuming
 a high pair is unavoidable** — the mandatory blocks and the real duplication
 look the same in a single percentage.
 
+| `/adira-finance-kelapa-gading` (2026-09-24) | **contact-availability-first**: white hero with a bordered *status box* (address: ada · map point: ada · office phone: *tidak tercantum*) → "no telp" section that answers honestly and gives three verified routes as cards (agent WhatsApp for gadai / Adira 1500511 / walk in) plus a data-backed 021 tip → address + "the only Adira office in Jakarta Utara" + map → five nearest as big-number cards (three linked) → prose-only gadai section → dark close | **9.4%** Alam Sutera, **7.7%** Sawangan, **8.1%** Ciputat, **8.7%** Pasar Baru, **8.6%** Tajur, **9.9%** Tebet, **9.9%** Pondok Gede, **9.7%** Harapan Indah |
+
+**The phone-keyword problem, and the rule it set.** The owner asked this page to
+rank for "no telp adira finance kelapa gading", but the dataset has **no phone
+and no fax** for branch 159 — all six columns empty (not unusual: 219 of 377
+branches have none). **Never supply a number from elsewhere or by guess**; on a
+YMYL page a wrong branch number is "displaying false information" under Scam
+and Fraud. The honest answer *is* the helpful answer: say the number isn't
+listed, then give verified routes. Two supporting facts from the data: every
+other DKI Adira office with a number uses an **021 landline** (5 of 5), so a
+mobile number presented as a "branch number" is most likely an agent's — which
+the page says openly, since this site is itself such an agent. No `telephone`
+in page-level JSON-LD (the site-wide `Person`/`FinancialService` nodes carry
+the agent and 1500511 numbers correctly, and a naive grep will flag them).
+
+**Owner rule bent, and reported.** §0 says Adira's 1500511 belongs in the
+footer only, to avoid handing leads to the national call centre. On this page
+it appears once in body text as the honest answer to a phone query — **not**
+as a button or CTA; the only action button is still WhatsApp. If the owner
+objects, remove that one card; nothing else depends on it.
+
+Other Kelapa Gading facts: the **only Adira office in Jakarta Utara** (6
+kecamatan); this record is newer than most (image and embed stamped
+2025-01-07); raw address carries a stray "Kp" before "Jl." and abbreviated
+"Klp." — displayed expanded, nothing added. Adding it made **three** cross-link
+pairs possible at once: Tebet (7.8 km) and Harapan Indah (10.0 km) now link
+here, and this page links to both plus Pondok Gede. Side effect worth knowing:
+once every entry in a typed `as const` list carries an `href`, TypeScript
+narrows the `c.href ? … : c.nama` else-branch to `never` and fails the build —
+give such lists an explicit `href: string | null` type.
+
+All eight pairwise gates came in **below 10%**, the lowest set yet — evidence
+that a genuinely different *reader problem* (here: "there is no number")
+produces a genuinely different page, more reliably than restyling the same
+content.
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That
