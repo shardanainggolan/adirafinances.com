@@ -294,7 +294,9 @@ export default function TajurPage() {
                 {DI_KOTA_BOGOR.map((c) => (
                   <li className="flex items-center justify-between gap-4 py-3" key={c.nama}>
                     <span className="text-title_black font-semibold">
-                      {c.nama}
+                      <Link className="underline hover:text-primary" href={c.href}>
+                        {c.nama}
+                      </Link>
                       <span className="block text-paragraph_black font-normal">{c.kecamatan}</span>
                     </span>
                     <span className="text-paragraph_black whitespace-nowrap">{String(c.km).replace(".", ",")} km</span>

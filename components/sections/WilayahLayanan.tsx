@@ -91,9 +91,13 @@ export default function WilayahLayanan() {
                 <Link className="text-primary font-semibold underline" href="/adira-finance-harapan-indah">
                   cabang Harapan Indah, Kota Bekasi
                 </Link>
-                , dan{" "}
+                ,{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-kelapa-gading">
                   cabang Kelapa Gading, Jakarta Utara
+                </Link>
+                , dan{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-soleh-iskandar">
+                  cabang Soleh Iskandar (Bogor 3)
                 </Link>{" "}
                 &mdash; masing-masing berisi alamat, telepon cabang, dan cabang terdekat lainnya.
               </p>
