@@ -590,6 +590,54 @@ that a genuinely different *reader problem* (here: "there is no number")
 produces a genuinely different page, more reliably than restyling the same
 content.
 
+| `/adira-finance-soleh-iskandar` (2026-10-07) | **verification-ledger-first**: dark hero with the Maps listing name "Cabang Bogor 3" and the full address + place_id Maps link → "Tiga hal yang kami cek ulang" as three rows, each split *topic / yang beredar / hasil cek kami*, separated by background colour (grey / white / yellow) → "Bogor 1 di Tajur, Bogor 3 di Soleh Iskandar" + a "PT Adira Finance itu nama resminya apa?" card → address, contact routes, map → motor/mobil two cards → dashed close | **9.1%** Alam Sutera, **7.1%** Sawangan, **7.3%** Ciputat, **8.9%** Pasar Baru, **9.3%** Tajur, **8.8%** Tebet, **8.5%** Pondok Gede, **7.4%** Harapan Indah, **8.4%** Kelapa Gading |
+
+**The dataset row for Soleh Iskandar (branch_id 25) was built by copying
+Tajur's row.** Evidence: (1) all three numbers — 0251-8390372, 0251-8390373,
+fax 0251-8384222 — are Tajur's; older independent directories (a Google Sites
+page "Adira Cabang Bogor 1-Tajur", portal-alamat 2018) attribute them to Tajur;
+(2) its latitude differs from Tajur's by 0.00018°, and the point reverse-geocodes
+to **Sukaluyu, Tamansari, Kabupaten Bogor** — 10.2 km from Jl. Sholeh Iskandar
+in Kedung Badak (Nominatim). The **Maps listing itself is sound**: the FID in
+`gmaps_link` (0x2e69c46b5a508161:0xbe2247bd245c5f5f) equals, byte for byte, the
+place_id `ChIJYYFQWmvEaS4RX19cJL1HIr4` that Waze uses for "Adira Finance
+Cabang Bogor 3" (decode: base64 → protobuf, two little-endian fixed64). Rendering
+the embed inside an iframe showed Google's own listing card: marker in Kedung
+Badak, address "Jalan Sholeh Iskandar No. 5-6, Ruko Blok B …, Kedungbadak,
+Tanah Sareal, 16164". That card is the most trustworthy source available for
+any branch — **render the embed and read the card before trusting a dataset
+row.** The embed must be inside an `<iframe>`; loading the URL directly returns
+"The Google Maps Embed API must be used in an iframe."
+
+Consequences applied: the Tajur numbers are not shown for Soleh Iskandar; the
+dataset coordinate is never displayed; the Maps link uses the documented
+`api=1&query_place_id=` format; RT/RW is omitted because the dataset (05/09)
+and the listing (007/007) disagree. **0251-8362825** appears for "Bogor 3" in
+three directories (alamatpenting, idfirms, Foursquare) — strong but not
+confirmed by Adira, so `CABANG.telepon` is left empty for the owner to confirm;
+the page renders it automatically once filled. Tajur's distance to Soleh
+Iskandar was re-derived from the correct point — 8.8 km, the same by
+coincidence. The owner's own adiracabang.id page for this branch still shows
+the Tajur number.
+
+**Keyword note.** "Adira Finance" and "pt Adira Finance" are brand head terms;
+a branch page run by an agent should not compete with adira.co.id for the
+brand's own name. They are served honestly (a card explaining that the legal
+name is PT Adira Dinamika Multi Finance, Tbk, linking `/tentang`), and
+`/tentang` is the right target for them. "adira finance cabang bogor 3" is
+legitimate: it is the listing name verbatim.
+
+**Audited with the google-quality-audit skill: 12/16, non-commodity, no red
+flags → "Sólido con huecos".** The gap to 13+ is first-hand material only the
+agent has (what actually happens at this branch, a real photo of the office)
+and a confirmed phone number. Tooling: the scratchpad scripts were wiped
+between sessions; a rewritten contrast checker must be sanity-checked on the
+riskiest elements (dark hero, yellow cells) before its "0 failures" is
+trusted — it was, with ratios of 17.9:1 and 14.4:1. Also absent from the
+compiled CSS: every responsive border utility (`md:border-t-0`, `md:border-l`,
+`md:divide-x`, `md:divide-y-0`) and `border-t-2` — separate stacked/side-by-side
+cells with background colours instead of lines.
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That

@@ -63,7 +63,10 @@ export const KECAMATAN_KOTA_BOGOR = [
  * bertentangan tidak diterbitkan.
  */
 export const DI_KOTA_BOGOR = [
-  { nama: "Adira Finance Soleh Iskandar", kecamatan: "Tanah Sereal", km: 8.8 },
+  // 8,8 km diverifikasi ulang 2026-10-07 dari titik Jl. Sholeh Iskandar di
+  // Kedung Badak (Nominatim), karena koordinat Soleh Iskandar di dataset
+  // ternyata keliru. Kebetulan hasilnya sama.
+  { nama: "Adira Finance Soleh Iskandar", kecamatan: "Tanah Sereal", km: 8.8, href: "/adira-finance-soleh-iskandar" },
 ] as const;
 
 export const DI_KABUPATEN_BOGOR = [
