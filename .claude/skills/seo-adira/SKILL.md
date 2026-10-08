@@ -638,6 +638,38 @@ compiled CSS: every responsive border utility (`md:border-t-0`, `md:border-l`,
 `md:divide-x`, `md:divide-y-0`) and `border-t-2` — separate stacked/side-by-side
 cells with background colours instead of lines.
 
+| `/adira-finance-mall-cileungsi` (2026-10-08) | **place-name glossary**: yellow hero answering navigation at once (two real phone numbers + a link to the mall) → a `<dl>` of the seven names a searcher meets, each tagged *Kantornya di sini / Nama lain tempat yang sama / Bukan lokasi kantor / Jangan diikuti* → full address + "PT Adira Finance nama resminya?" card → prose-only gadai section → nearby branches measured from the mall → close. **No map embed** (the only one available points to the wrong listing) | **6.0%** Alam Sutera, **7.6%** Sawangan, **5.7%** Ciputat, **6.7%** Pasar Baru, **6.5%** Tajur, **8.1%** Tebet, **7.6%** Pondok Gede, **8.0%** Harapan Indah, **8.8%** Kelapa Gading, **7.8%** Soleh Iskandar |
+
+**Mall Cileungsi (branch_id 19): three locations for one office.** The address
+says Mal Cileungsi Indah, Blok C/15-16, Jl. Raya Narogong; the stored
+coordinate reverse-geocodes to **Cimpaeun, Tapos, Depok** (10.6 km off); the
+sub_district code says **Cibinong** (3201210), wrong — the mall is in Kec.
+Cileungsi, Kel. Cileungsi Kidul (Nominatim; postcode 16820 matches). Worst of
+all, `gmaps_link` points to a listing named **"Rumah Cluster Adira"** (5.0★
+from 2 reviews, seen by rendering the embed in an iframe): its address text
+copies the branch, but its pin sits near Klapanunggal. Do not embed it — the
+page warns readers away from it instead. "Mall Cileungsi" = **Cileungsi Trade
+Center** (streetdirectory: "Cileungsi Trade Centre (Mall Cileungsi)"), which
+OSM places in Cileungsi Kidul; **Metropolitan Mall Cileungsi** is a different,
+newer mall 1.8 km away in Limusnunggal — the trap behind "adira finance mall
+cileungsi". The phones (021-82496928/29, fax 021-82480306/03) are unique in
+the dataset and match older independent directories, so they ARE published.
+The Maps link uses CTC's place_id (from Waze) — it opens the mall, and says so;
+there is no verified listing for the Adira office itself.
+
+**General rule now proven three times (Soleh Iskandar, Mall Cileungsi, and
+earlier Cikarang): the dataset's coordinate and `gmaps_link` must never be
+trusted on sight.** Per branch, before writing: reverse-geocode the stored
+coordinate (does it land in the branch's kecamatan?), check whether the phone
+numbers or latitude duplicate another row, and render the `gmaps_link` inside
+an iframe to read Google's listing card (name, address, rating count, pin).
+Measure nearby-branch distances from a verified point, never the stored one.
+
+Keyword typo "cielungsi" in the owner's list was not stuffed into the page;
+search engines handle the misspelling. Audit: 12/16, non-commodity, no red
+flags → "Sólido con huecos"; gap to 13+ is first-hand material (where inside
+the complex the office sits, a photo).
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That
