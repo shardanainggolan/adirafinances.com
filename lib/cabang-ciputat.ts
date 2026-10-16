@@ -118,7 +118,7 @@ export const CABANG_SEKITAR = [
   },
   {
     dari: "Kota Tangerang",
-    cabang: [{ nama: "Adira Finance Ciledug", km: 10.7, href: null }],
+    cabang: [{ nama: "Adira Finance Ciledug", km: 10.7, href: "/adira-finance-ciledug" }],
   },
   {
     dari: "Serpong dan sekitarnya",
