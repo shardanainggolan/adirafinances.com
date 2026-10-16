@@ -670,6 +670,33 @@ search engines handle the misspelling. Audit: 12/16, non-commodity, no red
 flags → "Sólido con huecos"; gap to 13+ is first-hand material (where inside
 the complex the office sits, a photo).
 
+| `/adira-finance-ciledug` (2026-10-16) | **visit card + one-road route**: white hero with a dark "kartu kunjungan" (`<dl>`: address, phones, fax, nearest TransJakarta stop, Maps name) and yellow tel pills → a vertical route strip *Naik / Turun / Lewat / Sampai* along Jl. HOS Cokroaminoto from the end of Koridor 13, beside the map → three address abbreviations decoded as cards → "Ciledug masuk Kota Tangerang, bukan Jakarta" + nearby list (three linked) → prose gadai → close | **11.0%** Alam Sutera, **9.0%** Sawangan, **8.3%** Ciputat, **9.2%** Pasar Baru, **9.0%** Tajur, **10.2%** Tebet, **9.2%** Pondok Gede, **9.0%** Harapan Indah, **9.4%** Kelapa Gading, **9.7%** Soleh Iskandar, **8.0%** Mall Cileungsi |
+
+**Ciledug (branch_id 3) is a clean row** — the first after two broken ones.
+Phones 021-73446773 / 021-7323669, fax 021-7323662 are unique and match an
+independent 2019 directory (alamatelpon.com). The rendered listing card reads
+"Adira Finance Cab Ciledug Baru, Jl. HOS Cokroaminoto Gang Rawa I No.16,
+RT.001/RW.005, Sudimara Tim., Kec. Ciledug, Kota Tangerang, Banten 15151",
+3.5★ from 317 reviews — which decodes the dataset's "Gg. Rw. I No.1 6":
+**"Rw." is *Rawa*, not RW**, and "1 6" is 16. The stored coordinate lands in
+Sudimara Jaya, the neighbouring kelurahan, effectively at the pin. "Baru" in
+the listing name is shown but not interpreted (no source mentions a move).
+
+Verified route facts: OSM puts the **TransJakarta CBD Ciledug stop 0.51 km
+west** of the pin and **Pasar Saraswati Ciledug 0.40 km west**, on a road OSM
+names **"Jalan Haji Oemar Said Cokroaminoto"** (HOS = Haji Oemar Said — a real
+search tip). Indonesian Wikipedia places the stop on Jl. HOS Tjokroaminoto,
+Kel./Kec. **Karang Tengah**, Koridor 13, opened 12 Nov 2018, reopened 14 Jun
+2025; its Jakarta end, formerly Tendean, is now Tegal Mampang. Stop opening
+hours are **not** stated — sources conflict (22:00 close vs 24 h). East-side
+landmarks seen on the Google map (CIPLAZ, RS Sari Asih) are absent from OSM,
+so they carry no distances. Also: a Facebook page "Adira Ciledug Baru" lists a
+mobile number — third-party, not published.
+
+Linking: Alam Sutera, Pasar Baru and Ciputat now link to Ciledug; Alam
+Sutera's Ciputat entry, missing a link since Ciputat was built, was fixed in
+passing. Audit: 12/16, non-commodity, no red flags → "Sólido con huecos".
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That

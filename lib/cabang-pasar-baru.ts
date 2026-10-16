@@ -67,7 +67,7 @@ export const KECAMATAN_KOTA_TANGERANG = [
 export const TERDEKAT = [
   { nama: "Adira Finance Alam Sutera", wilayah: "Kota Tangerang Selatan", km: 9.5, href: "/adira-finance-alam-sutera" },
   { nama: "Adira Finance Daan Mogot", wilayah: "Kota Jakarta Barat", km: 10.2, href: null },
-  { nama: "Adira Finance Ciledug", wilayah: "Kota Tangerang", km: 11.9, href: null },
+  { nama: "Adira Finance Ciledug", wilayah: "Kota Tangerang", km: 11.9, href: "/adira-finance-ciledug" },
 ] as const;
 
 /** Cabang di daftar kami yang berada di Jakarta Pusat — untuk disambiguasi Pasar Baru. */
