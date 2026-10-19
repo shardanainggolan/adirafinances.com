@@ -57,7 +57,7 @@ export const PASAR = { nama: "Pasar Saraswati Ciledug", km: 0.4 } as const;
 /** Tetangga, jarak lurus dari pin cabang (pin terverifikasi). */
 export const TETANGGA: readonly { nama: string; wilayah: string; km: number; href: string | null }[] = [
   { nama: "Adira Finance Alam Sutera", wilayah: "Tangerang Selatan", km: 7.5, href: "/adira-finance-alam-sutera" },
-  { nama: "Adira Finance Daan Mogot", wilayah: "Jakarta Barat", km: 8.6, href: null },
+  { nama: "Adira Finance Daan Mogot", wilayah: "Jakarta Barat", km: 8.6, href: "/adira-finance-daan-mogot" },
   { nama: "Adira Finance Pondok Indah Baru", wilayah: "Jakarta Selatan", km: 9.0, href: null },
   { nama: "Adira Finance Ciputat", wilayah: "Tangerang Selatan", km: 10.7, href: "/adira-finance-ciputat" },
   { nama: "Adira Finance Pasar Baru", wilayah: "Kota Tangerang", km: 11.9, href: "/adira-finance-pasar-baru" },
