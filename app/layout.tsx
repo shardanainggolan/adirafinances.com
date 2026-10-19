@@ -29,7 +29,10 @@ export const metadata: Metadata = {
       "Informasi pinjaman dana dengan jaminan BPKB mobil dan motor melalui Adira Finance. Lihat tabel angsuran, syarat, dan alur pengajuannya.",
   },
   robots: { index: true, follow: true },
-  icons: { icon: [{ url: "/img/favicon.svg", type: "image/svg+xml", sizes: "18x18" }] },
+  // Favicon cukup dari `app/favicon.ico` (file convention Next.js). Jangan
+  // tambahkan `icons` yang menunjuk berkas lain: Google hanya memakai satu
+  // favicon per hostname, dan tautan ke /img/favicon.svg yang 404 dulu
+  // membuat Search menampilkan ikon globe.
 };
 
 /**
