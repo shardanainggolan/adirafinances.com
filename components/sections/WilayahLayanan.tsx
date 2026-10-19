@@ -103,9 +103,13 @@ export default function WilayahLayanan() {
                 <Link className="text-primary font-semibold underline" href="/adira-finance-mall-cileungsi">
                   cabang Mall Cileungsi
                 </Link>
-                , dan{" "}
+                ,{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-ciledug">
                   cabang Ciledug
+                </Link>
+                , dan{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-daan-mogot">
+                  cabang Daan Mogot, Jakarta Barat
                 </Link>{" "}
                 &mdash; masing-masing berisi alamat, telepon cabang, dan cabang terdekat lainnya.
               </p>

@@ -697,6 +697,29 @@ Linking: Alam Sutera, Pasar Baru and Ciputat now link to Ciledug; Alam
 Sutera's Ciputat entry, missing a link since Ciputat was built, was fixed in
 passing. Audit: 12/16, non-commodity, no red flags → "Sólido con huecos".
 
+| `/adira-finance-daan-mogot` (2026-10-19) | **nested zoom**: short hero with two tel buttons → four boxes nested inside each other, widest to narrowest — Kota (Jakarta Barat, 8 kecamatan, 2 Adira offices in our data) → Kecamatan (Kalideres, Transjakarta Koridor 3 stop 0.8 km) → Kompleks (Daan Mogot Baru, Bali-named streets, mall 0.45 km) → Kantor (dark, Jl. Tanah Lot No. 15 Blok LC 14). Each level answers one target keyword → contact + map → gadai → nearby → dark close | **11.4%** Alam Sutera, **9.8%** Sawangan, **10.0%** Ciputat, **11.0%** Pasar Baru, **10.4%** Tajur, **11.3%** Tebet, **10.4%** Pondok Gede, **10.0%** Harapan Indah, **11.0%** Kelapa Gading, **10.3%** Soleh Iskandar, **10.8%** Mall Cileungsi, **11.6%** Ciledug |
+
+**Daan Mogot (branch_id 9) is a clean row.** Phones 021-54376721 /
+021-54376789, fax 021-54376342 are unique and match telepon.panggon.com. The
+listing card reads "ADIRA Daan Mogot, Ruko Daan Mogot Baru, Jl. Tanah Lot
+No.15 Blok LC 14, RT.8/RW.12, Kalideres 11840", 3.8★ from 469 reviews. The
+key navigational fact: **"Daan Mogot" here is the housing/ruko estate (Daan
+Mogot Baru), not Jalan Daan Mogot** — the trunk road is 0.86 km south (OSM).
+The estate's streets are named after places in Bali (Tanah Lot, Kintamani,
+Gilimanuk, Tampak Siring, Jimbaran, Ubud — visible on Google's map, partly in
+OSM). Third-party sites list several mobile numbers for this branch and one,
+adiradaanmogot.id, calls itself "Website RESMI" — none published or linked.
+
+**Pairwise decomposition caught a sentence I had reused.** First run vs
+Ciledug was 15.3%; decomposing showed a 22-word "PT Adira Finance itu nama
+dagang; badan hukumnya … bukan situs resmi Adira" sentence copied verbatim from
+the Ciledug page. Rewritten → **11.6%**, and Soleh Iskandar fell too. The
+brand-name explanation now appears on many pages — **write it fresh each
+time**, never paste the previous page's wording. Also: Pasar Baru's
+`TERDEKAT` hit the `never`-narrowing build error once every entry gained an
+`href`; fixed with an explicit type. Any `as const` neighbour list that may
+eventually be fully linked should be typed `href: string | null` up front.
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That
