@@ -1020,6 +1020,18 @@ and NAP sit on both sites by design — and its only conceivable purpose is
 footprint-hiding, which §9 rules out. Same for Analytics. The only thing that
 must stay separate is the **content**.
 
+**Favicon (diagnosed Oct 2026).** Search showed the globe from launch (1 Sep)
+because `app/layout.tsx` declared `icons` → `/img/favicon.svg` (404) *next to*
+the auto-generated `app/favicon.ico` link. Fixed by deleting the `icons` entry;
+the only icon is now `app/favicon.ico` (256×256, the A logo). Google's current
+rules (developers.google.com/search/docs/appearance/favicon-in-search, checked
+Oct 2026): square, **at least 8×8** (recommends >48×48; the old "multiple of
+48" rule is gone), one favicon per hostname, homepage crawlable by Googlebot and
+icon by Googlebot-Image, recrawl takes days to weeks, request via URL Inspection
+on the homepage, and display is never guaranteed. Google does not document which
+of two declared icons it picks — that the 404 one caused the globe is inference.
+Never add a second icon link pointing at a file that is not in `public/`.
+
 ---
 
 ## 10. How to behave when asked for SEO work here
