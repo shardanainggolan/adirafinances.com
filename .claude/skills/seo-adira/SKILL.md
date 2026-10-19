@@ -73,7 +73,8 @@ is by Adira; the site is run by the agent. That pairing is the honest, complete
 framing — it satisfies Google's "Who" and removes any impersonation ambiguity.
 
 **Contact split — keep it.** Every CTA (hero, calculator, closing, floating
-button) goes to `https://wa.me/6285122682981`. Adira's `1500511` /
+button) goes to `https://wa.me/6281546901704` (`AGEN.waNomor` in `lib/site.ts`;
+was 6285122682981 until Oct 2026). Adira's `1500511` /
 `customercare@adira.co.id` belong in the footer legal block only. Routing CTAs
 to Adira's national call centre would hand the lead away.
 
@@ -984,7 +985,7 @@ needed, never to avoid detection.
 
 **Google will associate the two properties regardless, and the server is the
 weakest signal in the set.** The strong ones are deliberately present on both
-sites and belong there: the same WhatsApp number (6285122682981), the same agent
+sites and belong there: the same agent WhatsApp (6285122682981 on both until Oct 2026; adirafinances.com now uses 6281546901704), the same agent
 name and AXI ID (Sharda / 012625001169), the identical Adira NAP block, and
 almost certainly a shared Search Console / Analytics / registrar footprint.
 Changing hosts removes none of them.
