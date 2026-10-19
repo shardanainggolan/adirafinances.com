@@ -6,7 +6,7 @@ Adira Finance.
 **Status:** ✅ **lengkap — semua data terkumpul, siap dieksekusi.**
 
 **Data kunci:** PT Adira Dinamika Multi Finance, Tbk (berizin & diawasi OJK) ·
-Agen AXI Sharda, ID 012625001169 · WhatsApp +62 851-2268-2981 ·
+Agen AXI Sharda, ID 012625001169 · WhatsApp +62 815-4690-1704 ·
 plafon/tenor dari `table-referenstatif.webp` · kalkulator dari API Dicicilaja.
 
 ---
@@ -100,21 +100,21 @@ lead lepas ke Adira pusat. Karena itu dipakai pemisahan peran:
 
 | Peran | Kontak |
 |---|---|
-| **CTA utama** (hero, kalkulator, penutup, tombol melayang) | **WhatsApp 6285122682981** |
+| **CTA utama** (hero, kalkulator, penutup, tombol melayang) | **WhatsApp 6281546901704** |
 | **Blok legal** (footer) | NAP resmi Adira + 1500511 + customercare@adira.co.id |
 
 Format penulisan yang dipakai konsisten:
 
 ```
-Tampilan  : +62 851-2268-2981
-Link      : https://wa.me/6285122682981
-tel:      : +6285122682981
-JSON-LD   : "telephone": "+6285122682981"  (pada node Person/agen)
+Tampilan  : +62 815-4690-1704
+Link      : https://wa.me/6281546901704
+tel:      : +6281546901704
+JSON-LD   : "telephone": "+6281546901704"  (pada node Person/agen)
 ```
 
 Sertakan pesan pembuka terisi supaya konteksnya jelas dan lead mudah
 ditindaklanjuti, mis.
-`https://wa.me/6285122682981?text=Halo%2C%20saya%20ingin%20tanya%20pinjaman%20jaminan%20BPKB`
+`https://wa.me/6281546901704?text=Halo%2C%20saya%20ingin%20tanya%20pinjaman%20jaminan%20BPKB`
 
 ### Entitas & klaim OJK — sudah diputuskan
 
@@ -144,7 +144,7 @@ Dua catatan pelaksanaan:
 | Nama Agen AXI | **Sharda** |
 | ID AXI | **012625001169** |
 | Peran | Agen AXI terdaftar di Adira Finance |
-| WhatsApp | **+62 851-2268-2981** (`6285122682981`) |
+| WhatsApp | **+62 815-4690-1704** (`6281546901704`) |
 
 **Kalimat disclosure wajib di footer** (verbatim):
 
@@ -185,7 +185,7 @@ atas, strukturnya jadi jelas dan aman:
       "name": "Sharda",
       "jobTitle": "Agen AXI Terdaftar",
       "identifier": "012625001169",
-      "telephone": "+6285122682981",
+      "telephone": "+6281546901704",
       "affiliation": { "@id": "https://adirafinances.com/#adira" }
     },
     {
@@ -241,7 +241,7 @@ template.
 - Subjudul: plafon, tenor, estimasi waktu proses — **angka nyata saja**
 - **Disclosure keagenan langsung di hero atau tepat di bawahnya.** Satu baris,
   jujur. Ini melindungi dari masalah impersonasi sekaligus menaikkan Trust
-- CTA ganda: **WhatsApp +62 851-2268-2981** (aksi utama) + "Hitung simulasi"
+- CTA ganda: **WhatsApp +62 815-4690-1704** (aksi utama) + "Hitung simulasi"
   (anchor ke S5)
 - Gambar hero yang sudah ada (keluarga + mobil) **sudah tepat** — pertahankan,
   sudah `next/image` + `priority`

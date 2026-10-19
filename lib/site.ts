@@ -49,8 +49,8 @@ export const AGEN = {
   nama: "Sharda",
   peran: "Agen AXI Terdaftar",
   id: "012625001169",
-  waNomor: "6285122682981",
-  waTampilan: "+62 851-2268-2981",
+  waNomor: "6281546901704",
+  waTampilan: "+62 815-4690-1704",
 } as const;
 
 export const WA_PESAN = "Halo, saya ingin tanya pinjaman jaminan BPKB";
