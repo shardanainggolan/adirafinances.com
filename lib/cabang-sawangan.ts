@@ -67,13 +67,20 @@ export const CABANG_DEPOK = [
   { nama: "Adira Finance Cimanggis", kecamatan: "Cimanggis", jalan: "Jl. Raya Jakarta–Bogor KM 31, Cisalak", km: 8.2 },
 ] as const;
 
-/** Cabang terdekat di luar Depok. "Terdekat" = fakta geografis, bukan teritori. */
-export const CABANG_LUAR_DEPOK = [
-  { nama: "Adira Finance Ciputat", wilayah: "Kota Tangerang Selatan", km: 9.8 },
-  { nama: "Adira Finance Mall Cileungsi", wilayah: "Kabupaten Bogor", km: 10.8 },
-  { nama: "Adira Finance Cibinong", wilayah: "Kabupaten Bogor", km: 10.9 },
-  { nama: "Adira Finance Pondok Indah Baru", wilayah: "Kota Jakarta Selatan", km: 14.6 },
-] as const;
+/**
+ * Cabang terdekat di luar Depok. "Terdekat" = fakta geografis, bukan teritori.
+ *
+ * Diperbaiki 2026-10-20: Mall Cileungsi dulu tercatat 10,8 km karena memakai
+ * koordinat dataset yang ternyata jatuh di Tapos, Depok. Dari Cileungsi Trade
+ * Center jaraknya 19,3 km, jadi keluar dari empat terdekat; Jatirahayu masuk.
+ * Cibinong diukur dari titik listing-nya (11,0 km).
+ */
+export const CABANG_LUAR_DEPOK: readonly { nama: string; wilayah: string; km: number; href: string | null }[] = [
+  { nama: "Adira Finance Ciputat", wilayah: "Kota Tangerang Selatan", km: 9.8, href: "/adira-finance-ciputat" },
+  { nama: "Adira Finance Cibinong", wilayah: "Kabupaten Bogor", km: 11.0, href: "/adira-finance-cibinong" },
+  { nama: "Adira Finance Pondok Indah Baru", wilayah: "Kota Jakarta Selatan", km: 14.6, href: null },
+  { nama: "Adira Finance Jatirahayu", wilayah: "Pondok Gede, Kota Bekasi", km: 16.7, href: "/adira-finance-pondok-gede" },
+];
 
 export const PETA_URL = `https://www.google.com/maps/search/?api=1&query=${CABANG.lintang},${CABANG.bujur}`;
 

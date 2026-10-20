@@ -69,11 +69,14 @@ export const DI_KOTA_BOGOR = [
   { nama: "Adira Finance Soleh Iskandar", kecamatan: "Tanah Sereal", km: 8.8, href: "/adira-finance-soleh-iskandar" },
 ] as const;
 
-export const DI_KABUPATEN_BOGOR = [
-  { nama: "Adira Finance Cibinong", kecamatan: "Cibinong", km: 18.4 },
-  { nama: "Adira Finance Leuwiliang", kecamatan: "Cibungbulang", km: 20.8 },
-  { nama: "Adira Finance Mall Cileungsi", kecamatan: "Cibinong", km: 22.3 },
-] as const;
+// Diperbaiki 2026-10-20: Mall Cileungsi dulu tercatat kecamatan "Cibinong",
+// 22,3 km — keduanya dari baris dataset yang keliru (lihat
+// lib/cabang-mall-cileungsi.ts). Dari Cileungsi Trade Center: 29,5 km.
+export const DI_KABUPATEN_BOGOR: readonly { nama: string; kecamatan: string; km: number; href: string | null }[] = [
+  { nama: "Adira Finance Cibinong", kecamatan: "Cibinong", km: 18.4, href: "/adira-finance-cibinong" },
+  { nama: "Adira Finance Leuwiliang", kecamatan: "Cibungbulang", km: 20.8, href: null },
+  { nama: "Adira Finance Mall Cileungsi", kecamatan: "Cileungsi", km: 29.5, href: "/adira-finance-mall-cileungsi" },
+];
 
 /** Arah Sukabumi, mengikuti koridor jalan yang sama. */
 export const ARAH_SUKABUMI = { nama: "Adira Finance Cicurug", wilayah: "Kabupaten Sukabumi", km: 24.7 } as const;
