@@ -721,6 +721,47 @@ time**, never paste the previous page's wording. Also: Pasar Baru's
 `href`; fixed with an explicit type. Any `as const` neighbour list that may
 eventually be fully linked should be typed `href: string | null` up front.
 
+| `/adira-finance-cibinong` (2026-10-20) | **origin-first**: white hero (address in prose + "di seberang Situ Kibing" + a 3-cell `<dl>` phone/fax/Maps name) → "Dari kecamatan Anda, kantor Adira mana yang paling dekat" — seven kecamatan rows, yellow where Cibinong is nearest, white + link where another verified office is (Soleh Iskandar, Tajur, Mall Cileungsi) → landmarks grouped *Kelihatan dari jalan / Kendaraan umum / Belanja* with side-of-road note, beside the map → "Tiga hal yang bikin orang salah alamat" (Cimanggis on the same road, old directory address, Kabupaten not Kota) → prose gadai → nearby → yellow **card** close on white (a full-bleed yellow close merges with the yellow site footer) | **9.1%** Alam Sutera, **7.2%** Sawangan, **6.7%** Ciputat, **8.2%** Pasar Baru, **8.6%** Tajur, **7.5%** Tebet, **8.2%** Pondok Gede, **7.0%** Harapan Indah, **8.1%** Kelapa Gading, **7.3%** Soleh Iskandar, **6.4%** Mall Cileungsi, **8.5%** Ciledug, **9.0%** Daan Mogot |
+
+**Cibinong (branch_id 26) is a clean row with an offset pin.** Phones
+021-87908409/10, fax 021-87908900 are unique and appear in old directories
+(search snippets only — the directory sites are unreachable from this
+machine). Listing card: "Adira Finance, Jl. Raya Jakarta-Bogor No.8,
+Cirimekar, Kec. Cibinong, Kabupaten Bogor 16917", 233 reviews. **New
+technique:** the "Buka di Maps" link inside the rendered embed carries the
+viewport centre, and Google re-centres the embed on the *place*, so that
+centre is the listing's own coordinate (it moved Soleh Iskandar from
+Tamansari to Kedung Badak: −6.5617136 / 106.7901924). For Cibinong it is
+−6.4725092 / 106.8497279 — Nominatim: "Jalan Raya Bogor, Cibinong, 16917" —
+while the dataset point sits **≈285 m west, across the road near Situ
+Kibing**. That offset flipped the side-of-road result and moved every
+landmark distance; all figures were recomputed from the listing point. Use
+this listing coordinate for every future branch, not the dataset one.
+
+Other facts: Cibinong is the capital of Kabupaten Bogor (40 kecamatan; 13
+kelurahan, postcodes 16911–16919, id.wikipedia). Adira **Cimanggis** (Depok,
+verified listing "Jl. Raya Jakarta-Bogor No.KM.31, Cisalak 16452") is on the
+same road 10.8 km north — prefixes 021-8790 vs 021-8771 tell them apart.
+Directories write the office as "Graha Cibinong Blok C1 No. 21-23, Jl. Raya
+Jakarta-Bogor Km 43, Kel. Cirimekar" — same road, kelurahan and phones; not
+confirmed to be the same spot, shown as such. Margonda (id 20) listing also
+verified clean. OSM kelurahan at the pin reads Pabuaran; address/listing say
+Cirimekar — Cirimekar shown.
+
+**Kecamatan lookup rules.** Kecamatan points from Nominatim (Bojonggede
+returns the *desa*, labelled so). Only verified offices are candidates;
+western kecamatan (Tajurhalang, Kemang, Parung, Ciseeng, Gunung Sindur,
+Rancabungur) are omitted and the page says why — their nearest office in
+the data is the broken Parung Panjang pin, or unverified Leuwiliang.
+
+**Sibling fixes shipped with this page.** The bad Mall Cileungsi pin (Tapos)
+was still in two older pages: Sawangan listed it at 10.8 km (correct 19.3 —
+it drops out of the four nearest; Jatirahayu 16.7 enters) and Tajur at
+22.3 km with kecamatan "Cibinong" (correct 29.5, Cileungsi). Mall
+Cileungsi's Cibinong distance 14.6 → 14.3 (listing point). Sawangan and
+Tajur nearby lists now render links. Audit: 12/16, non-commodity, no red
+flags → "Sólido con huecos".
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That

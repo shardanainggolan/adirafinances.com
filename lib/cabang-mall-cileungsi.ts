@@ -73,6 +73,7 @@ export const PETA_MAL_URL = `https://www.google.com/maps/search/?api=1&query=${e
 export const TETANGGA = [
   { nama: "Adira Finance Bantar Gebang", wilayah: "Kota Bekasi", km: 11.0, href: null },
   { nama: "Adira Finance Cimanggis", wilayah: "Kota Depok", km: 11.9, href: null },
-  { nama: "Adira Finance Cibinong", wilayah: "Kabupaten Bogor", km: 14.6, href: null },
+  // 14,3 km diukur ulang 2026-10-20 dari titik listing Cibinong (koordinat dataset Cibinong meleset ±285 m).
+  { nama: "Adira Finance Cibinong", wilayah: "Kabupaten Bogor", km: 14.3, href: "/adira-finance-cibinong" },
   { nama: "Adira Finance Jatirahayu", wilayah: "Pondok Gede, Kota Bekasi", km: 15.3, href: "/adira-finance-pondok-gede" },
 ] as const satisfies readonly { nama: string; wilayah: string; km: number; href: string | null }[];

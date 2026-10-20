@@ -368,7 +368,15 @@ export default function SawanganPage() {
                 style={{ padding: "8px 16px" }}
                 key={c.nama}
               >
-                <span className="font-semibold">{c.nama}</span>
+                <span className="font-semibold">
+                  {c.href ? (
+                    <Link className="underline hover:text-primary" href={c.href}>
+                      {c.nama}
+                    </Link>
+                  ) : (
+                    c.nama
+                  )}
+                </span>
                 <span className="text-paragraph_black">
                   {c.wilayah} &middot; {c.km} km
                 </span>
