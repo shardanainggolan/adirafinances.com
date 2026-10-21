@@ -238,7 +238,11 @@ export default function PasarBaruPage() {
               <h3 className="mt-2 text-title_black text-xl font-semibold leading-tight">Pasar Baru di Jakarta Pusat</h3>
               <p className="mt-4 text-paragraph_black">
                 Kalau yang Anda maksud kawasan Pasar Baru di Jakarta Pusat, cabang ini terlalu jauh untuk itu. Di daftar
-                kami, kantor Adira yang berada di Jakarta Pusat adalah {CABANG_JAKARTA_PUSAT.nama} di kecamatan{" "}
+                kami, kantor Adira yang berada di Jakarta Pusat adalah{" "}
+                <Link className="text-primary font-semibold underline" href={CABANG_JAKARTA_PUSAT.href}>
+                  {CABANG_JAKARTA_PUSAT.nama}
+                </Link>{" "}
+                di kecamatan{" "}
                 {CABANG_JAKARTA_PUSAT.kecamatan} &mdash; {CABANG_JAKARTA_PUSAT.km} km dari sini. Hubungi kami dulu,
                 nanti diarahkan ke yang tepat.
               </p>

@@ -60,7 +60,7 @@ export const KECAMATAN_JAKSEL = [
 export const DKI_JAKARTA = [
   { nama: "Adira Finance Tebet", kota: "Jakarta Selatan", kecamatan: "Tebet", km: 0, iniHalaman: true, href: null },
   { nama: "Adira Finance Kelapa Gading", kota: "Jakarta Utara", kecamatan: "Kelapa Gading", km: 7.8, iniHalaman: false, href: "/adira-finance-kelapa-gading" },
-  { nama: "Adira Finance Ketapang", kota: "Jakarta Pusat", kecamatan: "Gambir", km: 8.6, iniHalaman: false, href: null },
+  { nama: "Adira Finance Ketapang", kota: "Jakarta Pusat", kecamatan: "Gambir", km: 8.5, iniHalaman: false, href: "/adira-finance-ketapang" },
   { nama: "Adira Finance Pondok Indah Baru", kota: "Jakarta Selatan", kecamatan: "Kebayoran Baru", km: 9.0, iniHalaman: false, href: null },
   { nama: "Adira Finance Latumenten", kota: "Jakarta Barat", kecamatan: "Tambora", km: 10.5, iniHalaman: false, href: null },
   { nama: "Adira Finance Daan Mogot", kota: "Jakarta Barat", kecamatan: "Kalideres", km: 18.1, iniHalaman: false, href: "/adira-finance-daan-mogot" },

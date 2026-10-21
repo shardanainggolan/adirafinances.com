@@ -71,7 +71,7 @@ export const TETANGGA: readonly { nama: string; wilayah: string; km: number; hre
   { nama: "Adira Finance Ciledug", wilayah: "Kota Tangerang", km: 8.6, href: "/adira-finance-ciledug" },
   { nama: "Adira Finance Latumenten", wilayah: "Tambora, Jakarta Barat", km: 9.1, href: null },
   { nama: "Adira Finance Pasar Baru", wilayah: "Kota Tangerang", km: 10.2, href: "/adira-finance-pasar-baru" },
-  { nama: "Adira Finance Ketapang", wilayah: "Jakarta Pusat", km: 11.3, href: null },
+  { nama: "Adira Finance Ketapang", wilayah: "Jakarta Pusat", km: 11.6, href: "/adira-finance-ketapang" },
   { nama: "Adira Finance Alam Sutera", wilayah: "Tangerang Selatan", km: 13.3, href: "/adira-finance-alam-sutera" },
 ];
 
