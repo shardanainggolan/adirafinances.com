@@ -71,7 +71,12 @@ export const TERDEKAT: readonly { nama: string; wilayah: string; km: number; hre
 ];
 
 /** Cabang di daftar kami yang berada di Jakarta Pusat — untuk disambiguasi Pasar Baru. */
-export const CABANG_JAKARTA_PUSAT = { nama: "Adira Finance Ketapang", kecamatan: "Gambir", km: 21.2 } as const;
+export const CABANG_JAKARTA_PUSAT = {
+  nama: "Adira Finance Ketapang",
+  kecamatan: "Gambir",
+  km: 21.5,
+  href: "/adira-finance-ketapang",
+} as const;
 
 export const PETA_URL = `https://www.google.com/maps/search/?api=1&query=${CABANG.lintang},${CABANG.bujur}`;
 

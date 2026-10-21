@@ -762,6 +762,36 @@ Cileungsi's Cibinong distance 14.6 → 14.3 (listing point). Sawangan and
 Tajur nearby lists now render links. Audit: 12/16, non-commodity, no red
 flags → "Sólido con huecos".
 
+| `/adira-finance-ketapang` (2026-10-21) | **compass**: light-grey hero (kicker "Gambir, Jakarta Pusat", address in prose, two tel buttons) → "Ketapang yang mana?" yellow card (kawasan name, not a kelurahan) vs dashed card (Kabupaten Ketapang, Kalbar — no Adira office in our data) → 3×3 grid with the office dark in the centre and Utara/Timur/Selatan/Barat cells (DOM order N, W, office, E, S; empty corner cells `hidden md:block`, so phones read in that order) + transit line → contact + map → prose gadai → nearby as a ruled list → dark **card** close on white | **9.6%** Alam Sutera, **7.2%** Sawangan, **7.3%** Ciputat, **8.9%** Pasar Baru, **8.1%** Tajur, **8.8%** Tebet, **8.0%** Pondok Gede, **8.4%** Harapan Indah, **8.9%** Kelapa Gading, **7.3%** Soleh Iskandar, **5.3%** Mall Cileungsi, **10.0%** Ciledug, **11.0%** Daan Mogot, **7.8%** Cibinong |
+
+**Ketapang (branch_id 8) is a clean row with a messy address string and an
+offset pin.** The address field concatenates two versions ("Blok A3-A4 No. 27
+… RT.8" and "No.27A, RT.8/RW.1"); directories (telepon.panggon.com) say No. 27
+Blok A3-A4 — shown, with "27A" mentioned. Listing card: "Adira Finance, Petojo,
+Jl. Kyai Haji Zainul Arifin, RT.2/RW.1, Petojo Utara, Gambir 10130", 220
+reviews — RT conflicts (8 vs 2), so omitted. Listing point −6.1605212 /
+106.8152659 (≈270 m east of the dataset point); Jl. Zainul Arifin 15 m north
+of it (office on the south side), Jl. Gajah Mada 413 m east (OSM geometry —
+the first draft said 300 m; measure, don't eyeball). Phones 021-6322707/08,
+fax 021-6322709 corroborated by directories; second fax 021-63859422 from
+the dataset only. **"Ketapang" is a kawasan name**, not a kelurahan (OSM:
+Jalan Ketapang Utara, Sekolah Kristen Ketapang 1, GPDI/Gereja Kristus
+Ketapang). The city boundary is **not** the road: a point 0.1 km north (PGN,
+No. 20) is still Petojo Utara/Gambir, one ≈0.2 km north-west is Krukut, Taman
+Sari, Jakarta Barat — the page says the latter, not "across the road is
+Jakbar". Transjakarta Koridor 1 stops Sawah Besar/Harmoni ≈0.5 km are tagged
+*Temporer* in OSM — the page tells readers to check. Only Adira office in
+Jakarta Pusat (8 kecamatan) in the data. Kabupaten Ketapang, Kalbar (6106)
+has none; the raw "nearest" to Ketapang town is **Soekarno Hatta – Palu (id
+138), whose pin is wrong** (longitude 110.13 vs Palu ≈119.9) — new bad-pin
+entry; no Kalbar distances published. Latumenten (id 10) listing verified:
+"Jl. Prof. Dr. Latumeten, Jemb. Besi, Tambora 11320", pin in the Seasons City
+complex; its dataset address still contains the phone number.
+
+Sibling updates: Kelapa Gading 7.9→7.6 (now listed before Tebet), Tebet
+8.6→8.5, Daan Mogot 11.3→11.6, Pasar Baru 21.2→21.5 (prose now links). Audit:
+12/16, non-commodity, no red flags → "Solid with gaps".
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That

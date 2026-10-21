@@ -68,8 +68,9 @@ export const JUMLAH_KANTOR_DKI_BERNOMOR_021 = 5;
  * (uji urutan bujur, SKILL.md §8).
  */
 export const TERDEKAT = [
+  // Ketapang diukur ulang 2026-10-21 dari titik listing-nya (7,9 → 7,6 km).
+  { nama: "Adira Finance Ketapang", wilayah: "Jakarta Pusat", km: 7.6, href: "/adira-finance-ketapang" },
   { nama: "Adira Finance Tebet", wilayah: "Jakarta Selatan", km: 7.8, href: "/adira-finance-tebet" },
-  { nama: "Adira Finance Ketapang", wilayah: "Jakarta Pusat", km: 7.9, href: null },
   { nama: "Adira Finance Harapan Indah", wilayah: "Kota Bekasi", km: 10.0, href: "/adira-finance-harapan-indah" },
   { nama: "Adira Finance Latumenten", wilayah: "Jakarta Barat", km: 10.0, href: null },
   { nama: "Adira Finance Jatirahayu", wilayah: "Pondok Gede, Kota Bekasi", km: 14.3, href: "/adira-finance-pondok-gede" },
