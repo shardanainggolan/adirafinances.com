@@ -792,6 +792,31 @@ Sibling updates: Kelapa Gading 7.9→7.6 (now listed before Tebet), Tebet
 8.6→8.5, Daan Mogot 11.3→11.6, Pasar Baru 21.2→21.5 (prose now links). Audit:
 12/16, non-commodity, no red flags → "Solid with gaps".
 
+| `/adira-finance-solo-baru` (2026-10-22) | **two facts that explain each other**: white hero (Maps name "Graha Adira", address, one tel) → dark band "Namanya Solo, wilayahnya Sukoharjo" (three columns: wilayah / why people think it's Kota Solo / the "Solo" label also on Wonogiri) with sources cited → "Mencari Adira di Kota Solo?" — **paired bars** from six Kota Solo points, yellow = to this office, grey = to Karanganyar (label on its own line, bar on a full-width track, so lengths stay proportional on phones) → finding Graha Adira (search the listing name; road on the map is Jl. Ir. Soekarno) + landmarks + contact + map → prose gadai → Solo Raya list → bordered close | **8.9%** Alam Sutera, **7.0%** Sawangan, **7.0%** Ciputat, **8.6%** Pasar Baru, **8.4%** Tajur, **7.3%** Tebet, **8.9%** Pondok Gede, **7.0%** Harapan Indah, **7.7%** Kelapa Gading, **7.6%** Soleh Iskandar, **6.7%** Mall Cileungsi, **8.8%** Ciledug, **11.8%** Daan Mogot, **7.8%** Cibinong, **9.5%** Ketapang |
+
+**Solo Baru (branch_id 60): phones and address sound, coordinate WRONG.**
+Phones 0271-626626, fax 0271-626622 match directories (panggon,
+portal-alamat). Listing card "Graha Adira — Solo Baru, Jl. Raya Solo Permai 7,
+Dusun I, Madegondo, Kec. Grogol, Kab. Sukoharjo 57552", 103 reviews. The embed
+centre −7.601894 / 110.813303 sits **0.02 km from an OSM building tagged
+`name=Adira, office=yes`** (Nominatim: Jalan Insinyur Soekarno, Grogol); the
+dataset longitude 110.7751942 lands in Duwet, ≈4.2 km west. Note the embed
+centre kept the dataset *latitude* exactly — only longitude moved — so an
+unchanged coordinate component is not evidence the dataset is right; confirm
+with an OSM/Nominatim POI. Address says "Jl. Raya Solo Permai", OSM's main
+road 26 m east is Jalan Ir. Soekarno — shown as "on the map it's labelled…",
+no claim they are the same road. **Kota Surakarta (3372) has no Adira office
+in the dataset**; from six Kota Solo points this office is 2.6–5.5 km and the
+next (Karanganyar) 13.5–17.3 km. Always written "di data cabang kami" — ask
+the owner to confirm, since a real Kota Solo office would falsify it. Solo
+Baru is in Kec. Grogol, Kab. Sukoharjo, five desa, developed by PT Pondok Solo
+Permai, no visible boundary with Kota Solo (detikJateng 3 Mar 2022; Solopos 9
+Nov 2021). Dataset also labels Wonogiri "- Solo" (26 km, tenggara). Two drafted
+claims removed before build: "gadai doesn't have to be at an office in your
+own city" (unverified Adira policy) and "three to five times farther" (actual
+ratio 2.7–5.3). Bearings computed, not eyeballed (Grand Mercure 29° = timur
+laut; Pandawa Lima 198° = selatan). Audit 12/16, non-commodity, no red flags.
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That
