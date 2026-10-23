@@ -66,7 +66,8 @@ export const KECAMATAN_KOTA_BEKASI = [
  * DUA entri Cikarang sengaja tidak ada di sini — lihat `ANOMALI_CIKARANG`.
  */
 export const KAWASAN_BEKASI = [
-  { nama: "Adira Finance Tambun", kecamatan: "Tambun Selatan", wilayah: "Kabupaten Bekasi", km: 14.5, href: null },
+  // 14,7 km: diukur ulang 2026-10-23 dari titik listing Tambun (dataset ±285 m ke barat).
+  { nama: "Adira Finance Tambun", kecamatan: "Tambun Selatan", wilayah: "Kabupaten Bekasi", km: 14.7, href: "/adira-finance-tambun" },
   {
     nama: "Adira Finance Jatirahayu",
     kecamatan: "Pondok Melati",
