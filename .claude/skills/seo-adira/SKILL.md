@@ -817,6 +817,34 @@ own city" (unverified Adira policy) and "three to five times farther" (actual
 ratio 2.7–5.3). Bearings computed, not eyeballed (Grand Mercure 29° = timur
 laut; Pandawa Lima 198° = selatan). Audit 12/16, non-commodity, no red flags.
 
+| `/adira-finance-tambun` (2026-10-23) | **boundary line**: light-grey hero (address, then the full Maps listing name, one tel) → "Kantornya di Tambun, tapi tetangga terdekatnya serba Cibitung" — two rows of cards read west → east, row 1 = Tambun side (office dark), row 2 = name-change point (yellow) + Cibitung side; each card shows only the east-west offset so the order reads like walking the road → contact + three road names + postcode note + map → prose gadai → "Kantor Adira lain dari Tambun" (Kab. Bekasi has 3 offices in the data, both Cikarang pins wrong) → two-column close (yellow CTA card / bordered disclosure) | **9.2%** Alam Sutera, **8.3%** Sawangan, **7.0%** Ciputat, **9.2%** Pasar Baru, **9.3%** Tajur, **8.1%** Tebet, **9.4%** Pondok Gede, **8.5%** Harapan Indah, **8.6%** Kelapa Gading, **7.4%** Soleh Iskandar, **8.1%** Mall Cileungsi, **8.8%** Ciledug, **11.2%** Daan Mogot, **8.6%** Cibinong, **11.7%** Ketapang, **10.5%** Solo Baru |
+
+**Tambun (branch_id 13): clean row, offset pin, bad postcode.** Phone
+021-8831881 (fax 021-88366581) corroborated by directories. Listing card "PT
+Adira Dinamika Multi Finance Tambun (Bekasi 2) — Tambun, Kec. Tambun Sel.,
+Kabupaten Bekasi", 404 reviews; "(Bekasi 2)" shown verbatim, not interpreted.
+Listing point −6.2664234 / 107.0722503 (≈285 m east of the dataset point) —
+Nominatim: Metland, Mekarsari; Plaza Metropolitan Tambun 0.07 km, Trans
+Wibawa Mukti stop "Metland Tambun" 0.15 km. **Postcode has three versions**:
+dataset/directories 17729, Wikipedia 17510 for all of Tambun Selatan, Nominatim
+17520 at the point — none displayed, the page says why. **Three road names**:
+address "Jl. Sultan Hasanudin", OSM trunk "Jalan Hasanuddin" (ref 1, 155 m
+north), Google label "Jl. Pantura" — described as what each source says, not
+asserted to be identical. **The office sits at the east edge of Tambun
+Selatan**: the trunk's OSM name becomes "Jalan Raya Teuku Umar" ≈805 m east;
+Pasar Induk Cibitung (0.87) and RSUD Kabupaten Bekasi (1.21) are in Gandasari,
+Cibitung; **nearest KRL is Stasiun Cibitung 1.38 km** (Wanasari, Commuter
+Line Cikarang — id.wikipedia) vs Stasiun Tambun 2.02 km. Kabupaten Bekasi
+(23 kecamatan) has three Adira offices in the data — this one plus both
+Cikarang records whose pins are wrong; geocoding their addresses failed
+(Nominatim matched "Sentra Cikarang" to a hospital), so no Cikarang distance
+is published. Bantar Gebang (id 353) pin verified on Jl. Raya Narogong, used
+as nearest (10.8 km). Harapan Indah's Tambun distance 14.5 → 14.7, now linked.
+The owner's keyword list carried "Adira Finance Solo" over from the previous
+prompt — not targeted here (the Solo Baru page owns it). Multi-line string
+replacement in `WilayahLayanan.tsx` fails from node scripts (CRLF) — use the
+Edit tool for that file. Audit 12/16, non-commodity, no red flags.
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That
@@ -1116,6 +1144,19 @@ side by side. A *separate account* buys nothing — the WhatsApp number, agent I
 and NAP sit on both sites by design — and its only conceivable purpose is
 footprint-hiding, which §9 rules out. Same for Analytics. The only thing that
 must stay separate is the **content**.
+
+**"Page with redirect" for http://adirafinances.com/ is expected — do not
+"fix" it (checked 2026-10-22).** Google's Page indexing help
+(support.google.com/webmasters/answer/7440203): "a non-canonical URL that
+redirects to another page. As such, this URL will not be indexed", and "Not
+indexed is not necessarily bad". "Source: Website" only means the cause is on
+the site's side (our deliberate 301), not an error. Live check: http apex,
+http www and https apex each 301 in ONE hop to https://www.adirafinances.com/
+(200); canonical and every sitemap `<loc>` use www. What WOULD be a problem:
+the www homepage itself showing up there, a 2+ hop chain, or any apex/http URL
+in the sitemap or in canonical tags. Expect the same status for
+https://adirafinances.com/ and http://www.… — Google lists them as it
+discovers them (old links, the GSC Domain property covering all variants).
 
 **Favicon (diagnosed Oct 2026).** Search showed the globe from launch (1 Sep)
 because `app/layout.tsx` declared `icons` → `/img/favicon.svg` (404) *next to*
