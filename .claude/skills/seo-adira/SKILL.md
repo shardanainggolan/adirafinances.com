@@ -845,6 +845,37 @@ prompt — not targeted here (the Solo Baru page owns it). Multi-line string
 replacement in `WilayahLayanan.tsx` fails from node scripts (CRLF) — use the
 Edit tool for that file. Audit 12/16, non-commodity, no red flags.
 
+| `/adira-finance-cikuray-garut` (2026-10-26) | **north–south ladder**: white hero (address + "few hundred metres from Stasiun Garut", Garut-code tel) → "Jalan Cikuray pendek" landmarks measured to the *street segment* (rounded ±) + a "Satu nama, tiga Cikuray" `<dl>` (mountain / KA Cikuray / street) → "Dua hal yang bikin orang salah hubungi" (0265 numbers are Tasikmalaya's; the Cilawu agent listing is not the branch) → four Kab. Garut offices as one column north → south, this one dark → prose gadai → bordered white close. **No map embed** | **5.8%** Alam Sutera, **4.6%** Sawangan, **4.9%** Ciputat, **5.4%** Pasar Baru, **5.4%** Tajur, **5.0%** Tebet, **6.3%** Pondok Gede, **4.6%** Harapan Indah, **5.1%** Kelapa Gading, **4.5%** Soleh Iskandar, **6.0%** Mall Cileungsi, **4.9%** Ciledug, **6.7%** Daan Mogot, **6.4%** Cibinong, **6.5%** Ketapang, **8.8%** Solo Baru, **7.4%** Tambun |
+
+**Cikuray – Garut (branch_id 42) is a row assembled from three sources.**
+(1) telp1 0265-327525 and both faxes are **byte-identical to Adira Juanda –
+Tasikmalaya (id 41, the row above)** — 0265 is Tasikmalaya's code; copied, not
+published, and the page tells readers so. (2) `gmaps_link` points to "AXI
+ADIRA FINANCE GARUT (AGEN RESMI ADIRA FINANCE)", Jl. Garut - Tasikmalaya,
+Cilawu, 15 reviews — an **agent's** office ≈7 km away; the "Jl. Garut -
+Tasikmalaya" prefix in the address field comes from it. Not embedded; the page
+says neutrally that the listing is an agent, as its own name states (the owner
+is also an AXI agent — ask whether that listing belongs to the owner or a
+colleague before ever criticising it). (3) The real branch: "Jl. Cikuray No.38, Regol,
+Garut Kota 44117", (0262) 240969 — bukuteleponpenting.blogspot.com, 22 May
+2018, independent of the dataset; telp3 0262-238209 also Garut-coded, shown.
+Postcode 44117 (2018 source + Nominatim), not the dataset's 44161. The dataset
+coordinate lands in Regol at Jl. Kiansantang, 295 m west of Jalan Cikuray —
+close, not on it; OSM has no Adira object and Jalan Cikuray is a ≈510 m N–S
+segment, so **No. 38's position is unknown**: landmarks are measured to the
+segment and rounded (Stasiun Garut ±300 m, Alun-alun ±350, Pendopo ±400,
+Masjid Agung ±450, RSUD dr. Slamet ±900, Terminal Guntur ±1.7 km), and the Maps
+link is an address search, labelled as such. KA Cikuray (en.wikipedia): Garut –
+Pasar Senen, inaugurated 25 Mar 2022, named after Mount Cikuray — the street's
+name origin is NOT claimed. Kab. Garut (42 kecamatan) has four offices in the
+data; Limbangan, Cikajang, Pameungpeuk pins land in their towns, none has a
+phone. Removed before build: "paling tengah" (Cikuray is second from north),
+"both names come from the mountain", an unanchored "60 km" (replaced by the
+measured Limbangan–Pameungpeuk 72 km). Pairwise 4.5–8.8%, the lowest set yet —
+partly because there is no shared `PetaCabang` text. Audit 12/16; the gap is
+the unconfirmed exact location — a first-hand photo or a Maps listing for the
+branch would close it.
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That
