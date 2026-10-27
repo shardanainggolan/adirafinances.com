@@ -876,6 +876,34 @@ partly because there is no shared `PetaCabang` text. Audit 12/16; the gap is
 the unconfirmed exact location — a first-hand photo or a Maps listing for the
 branch would close it.
 
+| `/adira-finance-soekarno-hatta-bandung` (2026-10-27) | **road ruler**: dark hero (building + "≈800 m east of Terminal Leuwipanjang", yellow tel pill) → "Jalannya hampir 16 km. Nomor 380 ada di bagian barat" — one track with dots only (positions by E-W component; labels in a 4-card list below so close markers never collide on phones) + landmark list in two columns → "Telepon … yang benar" (dataset numbers belong to Baleendah) beside "Di Google Maps yang muncul justru ATM-nya" → five Kota Bandung offices, distance only where the pin matches → "Soekarno Hatta" in other cities → prose gadai → yellow card close. **No map embed** | **5.6%** Alam Sutera, **4.3%** Sawangan, **4.1%** Ciputat, **5.1%** Pasar Baru, **5.4%** Tajur, **4.7%** Tebet, **5.6%** Pondok Gede, **4.3%** Harapan Indah, **4.9%** Kelapa Gading, **4.6%** Soleh Iskandar, **5.1%** Mall Cileungsi, **5.3%** Ciledug, **5.4%** Daan Mogot, **5.0%** Cibinong, **5.7%** Ketapang, **8.4%** Solo Baru, **6.6%** Tambun, **8.5%** Cikuray |
+
+**Soekarno Hatta – Bandung (branch_id 27): address right, everything else
+needed repair.** (1) Phone 022-88882452 and fax 022-88882594 are identical to
+**Jaksanaranata – Baleendah (id 33)**, and ramdan.id (Nov 2019) lists
+022-88882452 as Baleendah's — copied. The branch's own: **022-5210766**
+(ramdan.id 2019, alamatpenting "Adira Finance Bandung 1 (Non Honda)", and Waze
+place "Adira Finance Soekarno Hatta, 380 Soekarno-Hatta" — all fetched),
+022-5224430 (ramdan.id), fax 022-5229716 (dataset fax2). (2) `gmaps_link` is
+"ATM DANAMON BANDUNG ADIRA SOEKARNO HATTA" (27 reviews) — an ATM inside Gedung
+Adira; its embed centre −6.9479092 / 107.6013091 is usable as the building's
+point (Nominatim: Jalan Soekarno-Hatta, Kebonlega, 40235) but it is not the
+office listing → not embedded. (3) Dataset coordinate lands in Cigondewah
+Rahayu ≈4 km west. (4) Postcode 40112 (dataset, ATM listing text) vs 40235
+(Nominatim) → not displayed. **Kota Bandung rows are widely damaged**:
+Ujungberung's pin sits on Jl. Soekarno-Hatta 0.3 km from this office (its
+address is Jl. Raya Sukamiskin) and its kecamatan code is Bojongloa Kidul;
+Majalaya carries Ujungberung's phones; Setiabudi's pin is in Bandung Barat
+32.9 km away and its address differs from 2019 (Jl. Peta 156 vs Jl. Setiabudi
+206); Pasir Koja's pin is in Babakan Ciparay and its listing is "Superland".
+Only Pungkur (2.3 km) and Baleendah (6.5 km) pins check out. Jalan
+Soekarno-Hatta (ways named exactly so): ≈15.7 km E-W, Cibuntu → Cipadung Kidul;
+office ≈3.0 km from the west end — a first query with a 12 km radius and a
+looser name filter gave a truncated, wrong span; always re-query wider when an
+end lands near the radius. Six dataset branches carry "Soekarno Hatta"
+(Bandung, Semarang, Kendal, Pasuruan, Palu, Malili) — named on the page for
+navigational searchers. Audit 12/16, non-commodity, no red flags.
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That
