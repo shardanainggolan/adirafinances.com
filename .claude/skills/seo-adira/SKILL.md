@@ -904,6 +904,56 @@ end lands near the radius. Six dataset branches carry "Soekarno Hatta"
 (Bandung, Semarang, Kendal, Pasuruan, Palu, Malili) — named on the page for
 navigational searchers. Audit 12/16, non-commodity, no red flags.
 
+| `/adira-finance-cimanggis-depok` (2026-10-29) | **map legend**: white hero (KM 31 address, Maps name, Gunadarma F4 200 m north, two tel buttons) → a bordered "Legenda" box with four colour-keyed groups (water: four *situ* within 1 km / campus & facilities / market & road / rail), keys use template colour classes only, beside map + address → "Dua nama wilayah yang sering bikin bingung" (two "Cisalak" in two kecamatan; Tapos split from Cimanggis) → prose gadai → Depok + neighbours (links Sawangan's Depok comparison instead of repeating it) → dark card close | **8.9%** Alam Sutera, **8.8%** Sawangan, **7.7%** Ciputat, **8.2%** Pasar Baru, **8.4%** Tajur, **7.8%** Tebet, **9.2%** Pondok Gede, **7.5%** Harapan Indah, **8.9%** Kelapa Gading, **7.3%** Soleh Iskandar, **7.6%** Mall Cileungsi, **8.0%** Ciledug, **11.6%** Daan Mogot, **10.9%** Cibinong, **9.7%** Ketapang, **13.6%** Solo Baru, **12.2%** Tambun, **8.9%** Cikuray, **8.4%** Soekarno Hatta |
+
+### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
+
+**202 of the 203 rows that carry a place-type `gmaps_link` have
+latitude/longitude byte-identical to that embed's `!3d`/`!2d` parameters** —
+the iframe's framing centre, which Google offsets from the place pin (the info
+card sits on the left). The real pin is the `@lat,lon` in the embed's "Buka di
+Maps" link. The offset is systematic and zoom-dependent: lon +0.0025749°
+(≈285 m) for every `1d≈3965` embed checked (Cibinong, Tambun, Cimanggis,
+Margonda, Pondok Indah Baru), +0.0381° (≈4.2 km) for `1d≈31640` (Solo Baru,
+Soekarno Hatta Bandung), ≈+0.019° (≈2.1 km) for Jatirahayu, ≈0.0047° for
+Tebet. Proof the `@` point is the place: Solo Baru's `@` sits 0.02 km from an
+OSM building `name=Adira`; Soekarno Hatta's `@` reverse-geocodes onto Jl.
+Soekarno-Hatta at the address while the dataset point is in Cigondewah 4 km
+away; Tambun's `@` is beside Plaza Metropolitan (directories: Ruko Permata
+Metropolitan). **Rule: never use the dataset coordinate. Extract `@` from the
+rendered embed (`href.mjs`) for every branch AND every neighbour.** Juanda –
+Depok's embed resolves to Margonda's exact `@` — the row is a Margonda copy.
+
+**Pages built before this finding used dataset coordinates and need
+re-measuring** (landmark distances, neighbour distances, and any kecamatan /
+kelurahan claim derived from reverse-geocoding the point): Alam Sutera,
+Sawangan, Ciputat, Pasar Baru, Tajur, Tebet, Pondok Gede (Jatirahayu offset
+≈2.1 km — highest risk), Harapan Indah, Kelapa Gading, Ciledug, Daan Mogot,
+and the distances to neighbours on Mall Cileungsi/Soleh Iskandar. Cibinong,
+Ketapang, Tambun, Solo Baru, Soekarno Hatta and Cimanggis already used `@`.
+Neighbour distances on those six were partly computed against other
+branches' *dataset* points (offset ≤285 m at 17z) — fix in the same pass.
+
+**Cimanggis (branch_id 22): clean row.** Phones 021-87714717/27, fax
+021-87714730 (directories). Listing "Adira Cimanggis — Jl. Raya Jakarta-Bogor
+No.KM.31, RT.1/RW.5, Cisalak, Kec. Cimanggis, Kota Depok 16452", 154 reviews;
+`@` −6.3755849 / 106.8631263. **Two "Cisalak"s**: Kelurahan Cisalak is in Kec.
+*Sukmajaya*, Cisalak Pasar in Kec. *Cimanggis* (id.wikipedia, both kecamatan
+pages); sources disagree on this office's kelurahan (listing "Cisalak, Kec.
+Cimanggis", idfirms "Cisalak Pasar", panggon "Cisalak Sukmajaya"); OSM has no
+kelurahan polygons for Depok (Nominatim's "village" is the nearest place
+node; `is_in` timed out on every mirror) — the page names the kecamatan only
+and explains both Cisalaks. Tapos was split from Cimanggis (id.wikipedia; no
+year given → none written); from Tapos's OSM polygon centre the nearest office
+is this one, 5.4 km. Four *situ* within 1 km (Bunder, Ciming, Gadog,
+Pangarengan); Gunadarma F4 0.21 km; LRT Harjamukti 3.6 km (Cibubur line
+terminus, opened 28 Aug 2023); KRL Pondok Cina 3.51 km. Removed before build:
+"the map app may take you into a housing estate — the other Cisalak"
+(speculation), "many Tapos residents still say Cimanggis" (unsourced), a
+non-template blue legend key (owner rule: template colours only). Legend `<h3>`
+needed explicit `text-xl` — the template CSS sizes `h3` at element level.
+Audit 12/16, non-commodity, no red flags.
+
 **Watch item — the union metric is drifting, the gate is not.** Combined
 normalised overlap against *all* existing pages: Tajur 35.4% → Tebet 34.3% →
 Pondok Gede 41.5% → Harapan Indah 34.5% (after the de-duplication above). That

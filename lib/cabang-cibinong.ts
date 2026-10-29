@@ -118,7 +118,8 @@ export const DARI_KECAMATAN: readonly {
 /** Cabang lain terdekat, jarak lurus dari titik listing. Juanda dan Parung Panjang dikecualikan (titik salah). */
 export const TETANGGA: readonly { nama: string; wilayah: string; km: number; href: string | null }[] = [
   { nama: "Adira Finance Margonda", wilayah: "Beji, Kota Depok", km: 10.2, href: null },
-  { nama: "Adira Finance Cimanggis", wilayah: "Cisalak, Kota Depok", km: 10.8, href: null },
+  // 10,9 km: antar titik LISTING (2026-10-29); sebelumnya 10,8 dari koordinat dataset Cimanggis.
+  { nama: "Adira Finance Cimanggis", wilayah: "Cisalak, Kota Depok", km: 10.9, href: "/adira-finance-cimanggis-depok" },
   { nama: "Adira Finance Sawangan", wilayah: "Pancoran Mas, Kota Depok", km: 11.0, href: "/adira-finance-sawangan" },
   { nama: "Adira Finance Soleh Iskandar", wilayah: "Tanah Sareal, Kota Bogor", km: 11.9, href: "/adira-finance-soleh-iskandar" },
   { nama: "Adira Finance Mall Cileungsi", wilayah: "Cileungsi, Kabupaten Bogor", km: 14.3, href: "/adira-finance-mall-cileungsi" },
@@ -129,7 +130,7 @@ export const TETANGGA: readonly { nama: string; wilayah: string; km: number; hre
 export const CIMANGGIS = {
   alamat: "Jl. Raya Jakarta-Bogor KM 31, Cisalak, Kecamatan Cimanggis, Kota Depok 16452",
   telepon: "021-87714717",
-  km: 10.8,
+  km: 10.9,
 } as const;
 
 export const PETA_URL =

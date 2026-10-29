@@ -280,7 +280,10 @@ export default function CibinongPage() {
                 Ada Adira lain di jalan yang sama
               </h3>
               <p className="mt-3 text-paragraph_black">
-                Adira Cimanggis juga beralamat di Jl. Raya Jakarta-Bogor &mdash; tapi di KM 31, Cisalak, Kota Depok,
+                <Link className="text-primary font-semibold underline" href="/adira-finance-cimanggis-depok">
+                  Adira Cimanggis
+                </Link>{" "}
+                juga beralamat di Jl. Raya Jakarta-Bogor &mdash; tapi di KM 31, Cisalak, Kota Depok,
                 sekitar {km(CIMANGGIS.km)} km ke utara. Cara membedakannya lewat telepon: nomor Cibinong diawali
                 021-8790, nomor Cimanggis 021-8771.
               </p>
