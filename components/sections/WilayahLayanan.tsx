@@ -131,6 +131,10 @@ export default function WilayahLayanan() {
                 <Link className="text-primary font-semibold underline" href="/adira-finance-soekarno-hatta-bandung">
                   cabang Soekarno Hatta, Bandung
                 </Link>
+                ,{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-cimanggis-depok">
+                  cabang Cimanggis, Depok
+                </Link>
                 , dan{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-daan-mogot">
                   cabang Daan Mogot, Jakarta Barat
