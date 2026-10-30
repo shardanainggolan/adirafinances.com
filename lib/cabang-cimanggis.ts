@@ -96,7 +96,7 @@ export const KELURAHAN_TAPOS = ["Cilangkap", "Cimpaeun", "Tapos", "Jatijajar", "
  * listing yang sama persis dengan Margonda.
  */
 export const TETANGGA: readonly { nama: string; wilayah: string; km: number; href: string | null }[] = [
-  { nama: "Adira Finance Margonda", wilayah: "Beji, Depok", km: 3.8, href: null },
+  { nama: "Adira Finance Margonda", wilayah: "Beji, Depok", km: 3.8, href: "/adira-finance-margonda-depok" },
   { nama: "Adira Finance Sawangan", wilayah: "Pancoran Mas, Depok", km: 8.2, href: "/adira-finance-sawangan" },
   { nama: "Adira Finance Cibinong", wilayah: "Kabupaten Bogor — jalan yang sama", km: 10.9, href: "/adira-finance-cibinong" },
   { nama: "Adira Finance Jatirahayu", wilayah: "Pondok Gede, Kota Bekasi", km: 11.3, href: "/adira-finance-pondok-gede" },
