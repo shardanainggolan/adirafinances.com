@@ -117,7 +117,8 @@ export const DARI_KECAMATAN: readonly {
 
 /** Cabang lain terdekat, jarak lurus dari titik listing. Juanda dan Parung Panjang dikecualikan (titik salah). */
 export const TETANGGA: readonly { nama: string; wilayah: string; km: number; href: string | null }[] = [
-  { nama: "Adira Finance Margonda", wilayah: "Beji, Kota Depok", km: 10.2, href: null },
+  // 10,1 km: antar titik LISTING (2026-10-30).
+  { nama: "Adira Finance Margonda", wilayah: "Beji, Kota Depok", km: 10.1, href: "/adira-finance-margonda-depok" },
   // 10,9 km: antar titik LISTING (2026-10-29); sebelumnya 10,8 dari koordinat dataset Cimanggis.
   { nama: "Adira Finance Cimanggis", wilayah: "Cisalak, Kota Depok", km: 10.9, href: "/adira-finance-cimanggis-depok" },
   { nama: "Adira Finance Sawangan", wilayah: "Pancoran Mas, Kota Depok", km: 11.0, href: "/adira-finance-sawangan" },

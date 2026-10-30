@@ -1,12 +1,12 @@
-tolong buatkan page untuk cabang Adira Finance Cimanggis Depok
+tolong buatkan page untuk cabang Adira Finance Margonda Depok
 
 Anda bisa cek metadatanya di public/analisis/adira-branches-full.csv
 
 =========================
 
-buatkan page ini unik, tidak template, tidak scaled content, tidak spam, hanya untuk page Adira Finance cabang Cimanggis Depok saja, berbeda dari page cabang lainnya
+buatkan page ini unik, tidak template, tidak scaled content, tidak spam, hanya untuk page Adira Finance cabang Margonda Depok saja, berbeda dari page cabang lainnya
 
-Anda bisa menelusuri internet tentang Cabang Cimanggis Depok dari Adira Finance ini untuk dijadikan referensi membuat page ini
+Anda bisa menelusuri internet tentang Cabang Margonda Depok dari Adira Finance ini untuk dijadikan referensi membuat page ini
 
 sehingga page cabang ini disukai oleh Google dan CTR nya tinggi
 
@@ -15,28 +15,28 @@ Pastikan menggunakan skill /google-quality-audit untuk menyediakan page berkuali
 pastikan mengikuti kebijakan Algoritma Google (Scaled Content, Helpful Content, Doorway)
 
 cover keyword berikut:
-- Adira Finance Cimanggis Depok, Intent: Navigational
-- Adira Finance Cimanggis, Intent: Navigational
+- Adira Finance Margonda Depok, Intent: Navigational
+- Adira Finance Margonda, Intent: Navigational
 - Adira Finance Depok, Intent: Navigational
-- pt Adira Finance Cimanggis Depok, Intent: Navigational
-- pt Adira Finance Cimanggis, Intent: Navigational
+- pt Adira Finance Margonda Depok, Intent: Navigational
+- pt Adira Finance Margonda, Intent: Navigational
 - pt Adira Finance Depok, Intent: Navigational
 - Adira Finance, Intent: Informational,
 - pt Adira Finance, Intent: Informational
 - gadai bpkb motor Adira Finance​​​​​, Intent: Informational
 - gadai bpkb mobil Adira Finance​​​​​, Intent: Informational
-- gadai bpkb motor Adira Finance​​​​​ Cimanggis Depok, Intent: Informational
-- gadai bpkb motor Adira Finance​​​​​ Cimanggis, Intent: Informational
+- gadai bpkb motor Adira Finance​​​​​ Margonda Depok, Intent: Informational
+- gadai bpkb motor Adira Finance​​​​​ Margonda, Intent: Informational
 - gadai bpkb motor Adira Finance​​​​​ Depok, Intent: Informational
-- gadai bpkb mobil Adira Finance​​​​​ Cimanggis Depok, Intent: Informational
-- gadai bpkb mobil Adira Finance​​​​​ Cimanggis, Intent: Informational
+- gadai bpkb mobil Adira Finance​​​​​ Margonda Depok, Intent: Informational
+- gadai bpkb mobil Adira Finance​​​​​ Margonda, Intent: Informational
 - gadai bpkb mobil Adira Finance​​​​​ Depok, Intent: Informational
 
 mudah rank 1 Google untuk keyword tersebut dan sesuai Intent
 
 hindari menggunakan kata dan kalimat yang terlihat AI Generated, gunakan bahasa Indonesia yang natural dan mudah dimengerti pembaca di Indonesia
 
-page ini tetap untuk target user yang sedang mencari cara Gadai BPKB mobil dan motor di cabang Adira Finance Cimanggis Depok
+page ini tetap untuk target user yang sedang mencari cara Gadai BPKB mobil dan motor di cabang Adira Finance Margonda Depok
 
 Gunakan resource SEO dari sumber yang valid, jangan gunakan halusinasi Anda
 jangan buat kesalahan

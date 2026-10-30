@@ -906,6 +906,29 @@ navigational searchers. Audit 12/16, non-commodity, no red flags.
 
 | `/adira-finance-cimanggis-depok` (2026-10-29) | **map legend**: white hero (KM 31 address, Maps name, Gunadarma F4 200 m north, two tel buttons) → a bordered "Legenda" box with four colour-keyed groups (water: four *situ* within 1 km / campus & facilities / market & road / rail), keys use template colour classes only, beside map + address → "Dua nama wilayah yang sering bikin bingung" (two "Cisalak" in two kecamatan; Tapos split from Cimanggis) → prose gadai → Depok + neighbours (links Sawangan's Depok comparison instead of repeating it) → dark card close | **8.9%** Alam Sutera, **8.8%** Sawangan, **7.7%** Ciputat, **8.2%** Pasar Baru, **8.4%** Tajur, **7.8%** Tebet, **9.2%** Pondok Gede, **7.5%** Harapan Indah, **8.9%** Kelapa Gading, **7.3%** Soleh Iskandar, **7.6%** Mall Cileungsi, **8.0%** Ciledug, **11.6%** Daan Mogot, **10.9%** Cibinong, **9.7%** Ketapang, **13.6%** Solo Baru, **12.2%** Tambun, **8.9%** Cikuray, **8.4%** Soekarno Hatta |
 
+| `/adira-finance-margonda-depok` (2026-10-30) | **two directions of arrival**: light-grey hero ("sisi timur, sisi Mitra10, bukan sisi D'Mall", one tel) → two side-by-side columns — "Dari arah UI / Jakarta" (yellow, southbound lane, office on the left) and "Dari pusat kota Depok" (grey, northbound, office across) — each an ordered list of landmarks passed, labelled *sebelum/setelah kantor* by N–S offset → "Margonda 88 bukan cuma kantor Adira" + the Juanda entry, beside map + address → prose gadai → Depok neighbours → two-column close | **9.2%** Alam Sutera, **8.9%** Sawangan, **7.0%** Ciputat, **8.9%** Pasar Baru, **8.9%** Tajur, **8.4%** Tebet, **9.0%** Pondok Gede, **7.6%** Harapan Indah, **7.6%** Kelapa Gading, **6.8%** Soleh Iskandar, **8.8%** Mall Cileungsi, **9.2%** Ciledug, **10.5%** Daan Mogot, **8.6%** Cibinong, **9.5%** Ketapang, **11.1%** Solo Baru, **10.3%** Tambun, **7.7%** Cikuray, **7.8%** Soekarno Hatta, **12.8%** Cimanggis |
+
+**Margonda (branch_id 20): clean row.** Phones 021-77204222/333/888, faxes
+021-77200022/77205111 (directories). Listing "Adira Finance — Jl. Margonda
+No.88 A-C, Kemiri Muka, Kec. Beji, Depok 16423", 216 reviews; `@` −6.3837222 /
+106.8296457. Jalan Raya Margonda in OSM: two one-way carriageways, ≈4.9 km
+N–S; the office is 13 m from the southbound way, on its left = **east side**.
+**Determine each landmark's side from the road geometry at that landmark's
+own latitude** (crossings of the carriageways at that latitude), never by
+extrapolating the bearing near the office — Margonda bends; the first, linear
+estimate put Pondok Cina on the wrong side. Result: Pondok Cina, Detos, ITC,
+Terminal, Stasiun Depok Baru, Balai Kota, D'Mall = west; Margo City, Mitra10 =
+east. **"88" trap**: D'Mall Depok is "Jl. Margonda Raya Kav. 88" (Tripadvisor;
+OSM "No.88") and Margonda Residence "Kav 88" (Travelio) — D'Mall is ≈450 m
+south on the opposite side. **Juanda (id 21)**: same address and the same Maps
+listing as Margonda, but its own phone 021-77207408 / fax 021-77207409; older
+lists (search snippet, rajotuho — unreachable) put Juanda at "Jl. Ir. Juanda
+No 25-26" with that number. Unresolved; page states it and tells Juanda
+seekers to call. A list that orders landmarks along a route must label items
+past the target "setelah", not "sebelum" — caught on the rendered page.
+Unverifiable access claims ("tinggal masuk") removed. Audit 12/16,
+non-commodity, no red flags.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
