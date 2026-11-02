@@ -929,6 +929,24 @@ past the target "setelah", not "sebelum" — caught on the rendered page.
 Unverifiable access claims ("tinggal masuk") removed. Audit 12/16,
 non-commodity, no red flags.
 
+| `/adira-finance-mt-haryono-semarang` (2026-11-02) | **one-way schematic**: yellow hero (address + "jalan di depan kantor satu arah ke utara", tel) → "Dua jalan sejajar, berlawanan arah": steps for arriving from south / from north beside a small inline SVG (not to scale; `currentColor`) → "Kalau melihat nomor 0294, itu bukan Semarang" + address + map + landmarks → prose gadai → Semarang offices → dark card close | **8.9%** Alam Sutera, **6.8%** Sawangan, **7.0%** Ciputat, **8.0%** Pasar Baru, **8.1%** Tajur, **7.5%** Tebet, **9.0%** Pondok Gede, **7.0%** Harapan Indah, **7.7%** Kelapa Gading, **7.1%** Soleh Iskandar, **5.3%** Mall Cileungsi, **8.1%** Ciledug, **9.2%** Daan Mogot, **7.2%** Cibinong, **8.4%** Ketapang, **10.3%** Solo Baru, **10.4%** Tambun, **8.9%** Cikuray, **9.7%** Soekarno Hatta, **12.5%** Cimanggis, **9.7%** Margonda |
+
+**MT. Haryono – Semarang (branch_id 49): address right, phone wrong.** Listing
+"Adira Finance — Jl. MT. Haryono No.657a, Wonodri, Kec. Semarang Selatan 50242",
+387 reviews; `@` −6.9969466 / 110.4318179. Dataset phone 0294-571013 is Kendal's
+code and sits on the row below (Soekarno Hatta – Kendal, id 50) — copied, shown
+only as a warning. Replacement 024-8318866 / fax 024-8416800 has **one source
+actually read** (alamatpenting, undated, "Adira Finance Semarang 1"); a search
+summary credited Waze too, but the fetched Waze page shows no number — **never
+cite a source from a search summary without opening it**. Page attributes the
+number and gives a fallback; owner to confirm. Road facts from OSM `oneway` tags,
+matching Google's arrows: MT. Haryono one-way north from a junction ≈440 m south
+of the office (office 22 m west = left); Kompol Maksum one-way south ≈200 m east,
+ending at that junction with a link back north. Google labels the stretch north
+of Jl. Siwalan "Jl. Mataram"; OSM keeps MT. Haryono. Page says to obey signs. Kota
+Semarang (16 kecamatan) has two offices in the data; the other, "Soekarno Hatta",
+is actually at Jl. Supriyadi, Kalicari. Audit 12/16, non-commodity, no red flags.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
