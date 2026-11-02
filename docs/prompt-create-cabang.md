@@ -1,12 +1,12 @@
-tolong buatkan page untuk cabang Adira Finance Margonda Depok
+tolong buatkan page untuk cabang Adira Finance MT. Haryono Semarang
 
 Anda bisa cek metadatanya di public/analisis/adira-branches-full.csv
 
 =========================
 
-buatkan page ini unik, tidak template, tidak scaled content, tidak spam, hanya untuk page Adira Finance cabang Margonda Depok saja, berbeda dari page cabang lainnya
+buatkan page ini unik, tidak template, tidak scaled content, tidak spam, hanya untuk page Adira Finance cabang MT. Haryono Semarang saja, berbeda dari page cabang lainnya
 
-Anda bisa menelusuri internet tentang Cabang Margonda Depok dari Adira Finance ini untuk dijadikan referensi membuat page ini
+Anda bisa menelusuri internet tentang Cabang MT. Haryono Semarang dari Adira Finance ini untuk dijadikan referensi membuat page ini
 
 sehingga page cabang ini disukai oleh Google dan CTR nya tinggi
 
@@ -15,28 +15,28 @@ Pastikan menggunakan skill /google-quality-audit untuk menyediakan page berkuali
 pastikan mengikuti kebijakan Algoritma Google (Scaled Content, Helpful Content, Doorway)
 
 cover keyword berikut:
-- Adira Finance Margonda Depok, Intent: Navigational
-- Adira Finance Margonda, Intent: Navigational
-- Adira Finance Depok, Intent: Navigational
-- pt Adira Finance Margonda Depok, Intent: Navigational
-- pt Adira Finance Margonda, Intent: Navigational
-- pt Adira Finance Depok, Intent: Navigational
+- Adira Finance MT. Haryono Semarang, Intent: Navigational
+- Adira Finance MT. Haryono, Intent: Navigational
+- Adira Finance Semarang, Intent: Navigational
+- pt Adira Finance MT. Haryono Semarang, Intent: Navigational
+- pt Adira Finance MT. Haryono, Intent: Navigational
+- pt Adira Finance Semarang, Intent: Navigational
 - Adira Finance, Intent: Informational,
 - pt Adira Finance, Intent: Informational
 - gadai bpkb motor Adira Finance​​​​​, Intent: Informational
 - gadai bpkb mobil Adira Finance​​​​​, Intent: Informational
-- gadai bpkb motor Adira Finance​​​​​ Margonda Depok, Intent: Informational
-- gadai bpkb motor Adira Finance​​​​​ Margonda, Intent: Informational
-- gadai bpkb motor Adira Finance​​​​​ Depok, Intent: Informational
-- gadai bpkb mobil Adira Finance​​​​​ Margonda Depok, Intent: Informational
-- gadai bpkb mobil Adira Finance​​​​​ Margonda, Intent: Informational
-- gadai bpkb mobil Adira Finance​​​​​ Depok, Intent: Informational
+- gadai bpkb motor Adira Finance​​​​​ MT. Haryono Semarang, Intent: Informational
+- gadai bpkb motor Adira Finance​​​​​ MT. Haryono, Intent: Informational
+- gadai bpkb motor Adira Finance​​​​​ Semarang, Intent: Informational
+- gadai bpkb mobil Adira Finance​​​​​ MT. Haryono Semarang, Intent: Informational
+- gadai bpkb mobil Adira Finance​​​​​ MT. Haryono, Intent: Informational
+- gadai bpkb mobil Adira Finance​​​​​ Semarang, Intent: Informational
 
 mudah rank 1 Google untuk keyword tersebut dan sesuai Intent
 
 hindari menggunakan kata dan kalimat yang terlihat AI Generated, gunakan bahasa Indonesia yang natural dan mudah dimengerti pembaca di Indonesia
 
-page ini tetap untuk target user yang sedang mencari cara Gadai BPKB mobil dan motor di cabang Adira Finance Margonda Depok
+page ini tetap untuk target user yang sedang mencari cara Gadai BPKB mobil dan motor di cabang Adira Finance MT. Haryono Semarang
 
 Gunakan resource SEO dari sumber yang valid, jangan gunakan halusinasi Anda
 jangan buat kesalahan
