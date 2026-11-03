@@ -947,6 +947,25 @@ of Jl. Siwalan "Jl. Mataram"; OSM keeps MT. Haryono. Page says to obey signs. Ko
 Semarang (16 kecamatan) has two offices in the data; the other, "Soekarno Hatta",
 is actually at Jl. Supriyadi, Kalicari. Audit 12/16, non-commodity, no red flags.
 
+| `/adira-finance-gatot-subroto-denpasar` (2026-11-03) | **name map**: white hero ("Barat" bolded, ≈800 m west of Terminal Ubung, tel) → "Di Denpasar, Gatot Subroto itu puluhan jalan": three segment cards W→E (Barat = office, dark; Tengah from ≈1.2 km; Timur from ≈4.6 km) + chips of numbered gangs (66 other OSM names) → address/phones/landmarks beside map → "Denpasar 1, 2, 3: kantor yang mana?" list quoting each source's label verbatim → prose gadai → bordered close | **9.2%** Alam Sutera, **7.3%** Sawangan, **7.3%** Ciputat, **8.9%** Pasar Baru, **8.8%** Tajur, **8.1%** Tebet, **9.4%** Pondok Gede, **7.6%** Harapan Indah, **7.7%** Kelapa Gading, **7.0%** Soleh Iskandar, **6.7%** Mall Cileungsi, **7.8%** Ciledug, **10.3%** Daan Mogot, **8.1%** Cibinong, **9.4%** Ketapang, **12.3%** Solo Baru, **10.9%** Tambun, **8.8%** Cikuray, **11.5%** Soekarno Hatta, **13.9%** Cimanggis, **12.1%** Margonda, **11.5%** MT. Haryono |
+
+**Gatot Subroto – Denpasar (branch_id 150): clean row.** Listing "PT Adira
+Dinamika Multi Finance - Denpasar 2 — Jl. Gatot Subroto Barat No.101, Ubung,
+Denpasar Utara 80237", 56 reviews; `@` −8.637541 / 115.1993151 (road 22 m
+south). Phone 0361-428811 / fax 0361-421132 confirmed by **two directories read
+directly**: alamatelpon.com (24 Feb 2019, "Adira Denpasar Car - Gatot Subroto")
+and nomortelponinfo (26 Jan 2019, "… Denpasar 2"). A search summary mentioned a
+list placing the number at "Gatot Subroto Timur 777X, Tonja" — not readable, so
+removed from the page before build (rule: never cite a summary-only source).
+OSM: 70 distinct way names containing "Gatot Subroto" within 7 km — Barat
+(−0.3…+0.9 km E-W from the office), Tengah (+1.2…+2.6), Timur (+4.6…+6.0), plus
+66 numbered gangs. Denpasar labels quoted verbatim, never interpreted: Dewata
+Square = "Dps 1"/"Denpasar 1"; this = "Denpasar 2"/"Denpasar Car";
+Mahendradatta = "Denpasar 3 Car" and Kios Kesiman exist only in the 2019
+directory, not in our data — shown as such. JS float trap: a computed length
+rendered "1,2000000000000002" — round before formatting. Audit 12/16,
+non-commodity, no red flags.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
