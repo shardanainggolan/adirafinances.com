@@ -147,6 +147,10 @@ export default function WilayahLayanan() {
                 <Link className="text-primary font-semibold underline" href="/adira-finance-gatot-subroto-denpasar">
                   cabang Gatot Subroto, Denpasar
                 </Link>
+                ,{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-ahmad-yani-samarinda">
+                  cabang Ahmad Yani, Samarinda
+                </Link>
                 , dan{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-daan-mogot">
                   cabang Daan Mogot, Jakarta Barat

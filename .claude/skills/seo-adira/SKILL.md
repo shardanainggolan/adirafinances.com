@@ -966,6 +966,25 @@ directory, not in our data — shown as such. JS float trap: a computed length
 rendered "1,2000000000000002" — round before formatting. Audit 12/16,
 non-commodity, no red flags.
 
+| `/adira-finance-ahmad-yani-samarinda` (2026-11-04) | **area timeline**: dark hero (address, "dekat bekas bandara kota", yellow tel pill) → "Kantornya dekat bekas bandara kota" beside a vertical timeline (1974 opened → 23 May 2018 closed → 24 May 2018 APT Pranoto → now Temindung Creative Hub 0.42 km) → "Ahmad Yani I, Ahmad Yani, atau Poros Samarinda–Bontang?" + address + landmarks + map → Kaltim offices + "Ahmad Yani ada di banyak kota" → prose gadai → yellow card close | 6.7–13.3% vs all, except **14.8%** Margonda and **17.3%** Gatot Subroto Denpasar (written back-to-back; under the 20% decompose line) |
+
+**Ahmad Yani – Samarinda (branch_id 115): clean row.** Listing "Adira Finance —
+Jl. Jenderal Ahmad Yani I No.3 A - 3 B, Temindung Permai, Kec. Sungai Pinang,
+Samarinda 75117", 54 reviews; `@` −0.4787933 / 117.1551782. Phones 0541-742734
+/ 742689 / 742698, fax 0541-738607 — unique, correct area code, and one page
+read directly (Google Sites "Adira Cabang Samarinda-Ahmad Yani", undated).
+Road: OSM has two carriageways "Jalan Ahmad Yani" (13 m) and "Jalan Ahmad Yani
+1" (58 m); Google labels it "Jl. Poros Samarinda - Bontang"; Google arrows and
+OSM `oneway` disagree → no traffic-direction claims. Temindung airport dates
+from id.wikipedia (read): 24 Jul 1974 – 23 May 2018, replaced by APT Pranoto
+(opened 24 May 2018, ≈15.9 km NE); the old terminal's current use comes only
+from the OSM name "Temindung Creative Hub (Terminal Lama Temindung Airport)" —
+attributed as such. Only Adira office in Kota Samarinda in the data; next is
+Tenggarong ≈18 km. 15 branches named "Ahmad Yani" nationally. Removed before
+build: an unsourced etymology ("Temindung Permai named after the airport") and
+an unsourced frequency claim ("Banjarmasin/Martapura most often confused").
+Audit 12/16, non-commodity, no red flags.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
