@@ -985,6 +985,28 @@ build: an unsourced etymology ("Temindung Permai named after the airport") and
 an unsourced frequency claim ("Banjarmasin/Martapura most often confused").
 Audit 12/16, non-commodity, no red flags.
 
+| `/adira-finance-veteran-palembang` (2026-11-05) | **pre-departure checklist**: light-grey hero (Ruko Rajawali, north side of Jl. Veteran, east of the Jl. Rajawali junction, tel) → "Empat hal yang perlu dicek dulu" — four rows with decorative checkboxes (two "Palembang 1" listings / Rajawali junction landmarks / phone has no independent source / documents can be sent first) → address + landmarks + re-centred map → two offices in Kota Palembang → prose gadai → dark card close | 5.1–12.9% vs all 24 |
+
+**Veteran – Palembang (branch_id 108): address right; coordinate, embed and
+phone needed care.** Listing "Adira Dinamika Multi Finance. PT Tbk - Palembang 1
+— Ruko Rajawali, Jl. Veteran, 9 Ilir, Kec. Ilir Tim. II, Palembang 30114", 62
+reviews; `@` −2.9755823 / 104.7654363. **The Basuki Rahmat listing (id 107) is
+also labelled "Cab. Palembang 1"** — two "Palembang 1"s 3.0 km apart; the page
+says to go by address. Dataset coordinate: latitude identical to Basuki Rahmat's
+pin, longitude ≈2.5° west — contaminated, unused. The stored embed was zoom 8
+(a whole province); **re-centred by rewriting `!1d`/`!2d`/`!3d` to the `@` point
+while keeping the place id `!1s`** — rendered and verified to show the same
+listing card. Reusable fix for any zoomed-out embed. Phone 0711-310511 / fax
+310512 unique and Palembang-coded, but every search hit is an agent/aggregator
+copy — **no independent source**; the page says so and gives the WA fallback;
+telp2 is a mobile (0812-7130584), not used. OSM: the ≈300 m stretch in front of
+the pin is tagged "Jalan Perintis Kemerdekaan" between two "Jalan Veteran" ways,
+with a node shared with "Jalan Rajawali" at its west end; Google labels it all
+Jl. Veteran — the page follows Google and only states the Rajawali junction.
+Removed before build: "Rajawali in the address is no coincidence" (implied
+etymology). Audit 12/16; accuracy held at 3 only because the unconfirmed phone
+is disclosed, not hidden — owner confirmation would close that gap.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
