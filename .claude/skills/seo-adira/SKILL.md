@@ -1007,6 +1007,28 @@ Removed before build: "Rajawali in the address is no coincidence" (implied
 etymology). Audit 12/16; accuracy held at 3 only because the unconfirmed phone
 is disclosed, not hidden — owner confirmation would close that gap.
 
+| `/adira-finance-juanda-tasikmalaya` (2026-11-06) | **roundabout as zero point**: white hero (Ruko TFT, ±200 m north of Bunderan Bypass Mangkubumi, tel) → yellow "Tiga langkah dari Bunderan Bypass Mangkubumi" (three numbered white cards) → "Satu alamat, tiga nama kecamatan" (Cihideung / Bungursari from the address, Mangkubumi from OSM at the pin) → address + TFT/TST note + 0265-copied-to-Cikuray note + landmarks + map → "Satu di Kota, dua di Kabupaten" (Singaparna, Karang Nunggal) → prose gadai → bordered card close | 6.9–15.9% vs all 25 |
+
+**Juanda – Tasikmalaya (branch_id 41): phone and street right; REGION CODE
+wrong.** Listing "Adira Dinamika Multi Finance, Tbk. PT — JL Insinyur Haji
+Djuanda, No. 18, Cilembang, Cihideung, Komplek Ruko TFT, Sukamulya, Kec.
+Bungursari, Kota Tasikmalaya 46123", 69 reviews; `@` −7.3411492 / 108.1968978.
+Dataset codes it district 3206 (Kabupaten) / sub_district 3206010 (Cipatujah,
+south coast) — wrong; the address text even says "Kab. Tasikmalaya". Nominatim
+at the pin: Linggajaya, Mangkubumi — so three kecamatan names; the page lists
+all three and does not pick a boundary. Phone 0265-327525 read on two undated
+directories (Google Sites "Adira cabang TASIKMALAYA-Juanda", alamatpenting);
+fax 0265-327528 on both, 0265-313358 on Google Sites only. Complex "Ruko TFT"
+(Google) vs "Ruko TST" (directories) — page states both. These numbers are the
+ones copied onto Cikuray – Garut (id 42); the two pages now link each other.
+OSM roundabout (junction=roundabout, tagged "Jalan Letnan Jenderal Haji
+Mashudi") ≈208 m south of the pin; Google labels it "Bunderan Bypass
+Mangkubumi". **Jl. Brigjen Sutoko starts AT the roundabout (OSM geometry), not
+north of the office — don't use it as an overshoot marker.** Removed before
+publish: "Astra Daihatsu right to the north" (no recorded source, not in OSM),
+"hampir semua aplikasi peta", a Pasar Cikurubuk "too far" line. Audit 12/16,
+non-commodity, no red flags.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
