@@ -75,7 +75,7 @@ export const KANTOR_GARUT: readonly { nama: string; tempat: string; km: number |
 ];
 
 /** Kantor asal nomor 0265 yang tersalin ke data cabang ini. */
-export const JUANDA_TASIK = { nama: "Adira Finance Juanda – Tasikmalaya", km: 34.7 } as const;
+export const JUANDA_TASIK = { nama: "Adira Finance Juanda – Tasikmalaya", km: 35.0, href: "/adira-finance-juanda-tasikmalaya" } as const;
 
 /** Pencarian alamat — BUKAN listing kantor (belum ditemukan). */
 export const PETA_URL =

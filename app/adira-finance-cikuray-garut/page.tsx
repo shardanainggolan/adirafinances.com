@@ -191,7 +191,11 @@ export default function CikurayGarutPage() {
               <p className="mt-3 text-paragraph_black">
                 Di internet, alamat Adira Cikuray sering dipasangkan dengan nomor berawalan 0265 &mdash; termasuk di
                 data cabang yang kami pegang. Kode 0265 milik Tasikmalaya, dan di data kami nomor-nomor itu sama
-                persis dengan nomor kantor {JUANDA_TASIK.nama}, sekitar {km(JUANDA_TASIK.km)} km dari Garut. Untuk kantor Cikuray,
+                persis dengan nomor kantor{" "}
+                <Link className="text-primary font-semibold underline" href={JUANDA_TASIK.href}>
+                  {JUANDA_TASIK.nama}
+                </Link>
+                , sekitar {km(JUANDA_TASIK.km)} km dari Garut. Untuk kantor Cikuray,
                 pakai nomor berkode Garut: <strong className="text-title_black">{CABANG.telepon.join(" atau ")}</strong>.
               </p>
             </div>

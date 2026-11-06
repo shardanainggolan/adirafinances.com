@@ -178,6 +178,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${SITE_URL}/adira-finance-juanda-tasikmalaya`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${SITE_URL}/kebijakan-privasi`,
       lastModified: new Date(),
       changeFrequency: "yearly",
