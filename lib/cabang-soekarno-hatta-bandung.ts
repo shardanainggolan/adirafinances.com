@@ -80,11 +80,11 @@ export const PATOKAN: readonly { nama: string; km: number; arah: string; catatan
  * dataset jatuh di alamatnya. Alamat Setiabudi: dataset "Jl. Peta No.156",
  * ramdan.id 2019 "Jl. Setiabudi No.206" — ditulis keduanya.
  */
-export const KOTA_BANDUNG: readonly { nama: string; alamat: string; km: number | null; ini?: true }[] = [
+export const KOTA_BANDUNG: readonly { nama: string; alamat: string; km: number | null; ini?: true; href?: string }[] = [
   { nama: "Adira Finance Soekarno Hatta", alamat: "Jl. Soekarno-Hatta No. 380, Bojongloa Kidul", km: null, ini: true },
   { nama: "Adira Finance Pungkur", alamat: "Jl. Pungkur No. 117, Regol", km: 2.3 },
   { nama: "Adira Finance Pasir Koja", alamat: "Jl. Terusan Pasirkoja, Astanaanyar", km: null },
-  { nama: "Adira Finance Ujungberung", alamat: "Jl. Raya Sukamiskin No. 118", km: null },
+  { nama: "Adira Finance Ujungberung", alamat: "Jl. Raya Sukamiskin No. 118", km: null, href: "/adira-finance-ujungberung-bandung" },
   { nama: "Adira Finance Setiabudi", alamat: "Jl. Peta No. 156 (data kami) / Jl. Setiabudi No. 206 (direktori 2019)", km: null },
 ];
 

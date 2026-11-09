@@ -288,7 +288,13 @@ export default function SoekarnoHattaBandungPage() {
                 key={k.nama}
               >
                 <span>
-                  <span className="block text-title_black font-semibold">{k.nama}</span>
+                  {k.href ? (
+                    <Link className="block text-primary font-semibold underline" href={k.href}>
+                      {k.nama}
+                    </Link>
+                  ) : (
+                    <span className="block text-title_black font-semibold">{k.nama}</span>
+                  )}
                   <span className="block text-sm text-paragraph_black">{k.alamat}</span>
                 </span>
                 <span className="text-sm text-paragraph_black whitespace-nowrap">
