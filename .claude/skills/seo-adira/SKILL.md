@@ -1029,6 +1029,42 @@ publish: "Astra Daihatsu right to the north" (no recorded source, not in OSM),
 "hampir semua aplikasi peta", a Pasar Cikurubuk "too far" line. Audit 12/16,
 non-commodity, no red flags.
 
+| `/adira-finance-ujungberung-bandung` (2026-11-09) | **evidence matrix**: light-grey hero (three addresses, "telepon dulu", two tel buttons with their source under them) → "Satu nama, tiga alamat" — bordered list A/B/C, four labelled cells each (alamat tertulis / titik di peta / telepon / sumber), `lg:grid-cols-4` → "Kenapa bisa sampai tiga?" three white cards A, B, C + note that the dataset pin is Soekarno Hatta's → yellow section, two landmark cards (B, C) each with a CID "Buka di Google Maps" link → prose gadai → dark card close. **No map embed** | 4.8–7.6% vs all 26 |
+
+**Ujungberung – Bandung (branch_id 29): address and phones right; location
+wrong; three "Ujung Berung" Adira addresses exist.** Address "Jl. Raya
+Sukamiskin No. 118" + 022-7218491 / 7217591 / 7213996 confirmed by ramdan.id
+(URL 2019/11), read directly. Majalaya's own number there is 022-85962066, so
+**the Majalaya row (id 30) copies Ujungberung's phones.** `gmaps_link` is the
+Soekarno Hatta listing ("PT. Adira Dinamika Multi Finance", Kb. Lega,
+Bojongloa Kidul 40235, 132 reviews). The row's kecamatan code 3273040 and
+postcode 40235 were copied from that listing too. Google has no listing at
+No. 118, and OSM has no road named Sukamiskin. Sukamiskin is a kelurahan in
+Arcamanik (OSM/Nominatim); no source equates it with Jl. AH. Nasution, so the
+page doesn't claim it. Two other Maps listings:
+(B) "Adira Bandung Ujung Berung", Komplek Ruko Tritan Point, Cipadung Wetan,
+Panyileukan 40614, 8 reviews, no phone, CID 4590726068210085422;
+(C) "Adira Finance (dahulu Mandala Finance) Cabang Ujung Berung", Ruko Nasution
+Square, Jl. AH. Nasution No. 103 Kav. 29, Mandalajati 40195, 4 reviews,
+(022) 7204177, CID 3883554236044521786. B–C 5.9 km.
+**Adira–Mandala merger:** Kontan (1 Jul 2025, read) says Adira is the
+receiving entity, with a target of 1 Oct 2025. Bisnis.com articles giving the
+effective date return 403, and search summaries aren't citable, so the page
+says "target rampung". Expect more "(dahulu Mandala Finance)" listings in
+other cities.
+**Tooling:**
+- Place pages don't load in headless "limited view". Render an embed built
+  from the place id (`!1s<hex>:<hex>`) to read the card.
+- Google Maps *search* pages (`/maps/search/<q>`) DO list results with
+  address and phone, and give each place's real pin in `!3d`/`!4d`.
+- `maps.google.com/?cid=<decimal of the second hex>` opens the right listing,
+  which makes it a stable outbound map link.
+- Classes `lg:grid`, `lg:grid-cols-5`, arbitrary `grid-cols-[…]`, `first:` and
+  `divide-border` are not compiled. `lg:grid-cols-4`, `lg:hidden` and
+  `lg:block` are.
+
+Audit 12/16, non-commodity, no red flags.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have

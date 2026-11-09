@@ -159,6 +159,10 @@ export default function WilayahLayanan() {
                 <Link className="text-primary font-semibold underline" href="/adira-finance-juanda-tasikmalaya">
                   cabang Juanda, Tasikmalaya
                 </Link>
+                ,{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-ujungberung-bandung">
+                  cabang Ujungberung, Bandung
+                </Link>
                 , dan{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-daan-mogot">
                   cabang Daan Mogot, Jakarta Barat
