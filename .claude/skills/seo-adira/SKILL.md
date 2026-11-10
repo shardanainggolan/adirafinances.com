@@ -1065,6 +1065,38 @@ other cities.
 
 Audit 12/16, non-commodity, no red flags.
 
+| `/adira-finance-mayor-abdurachman-sumedang` (2026-11-10) | **errata sheet**: white hero (Jl. Mayor Abdurahman No. 103, "not Jatisari", tel + Maps link) → grey "Namanya benar, alamatnya yang keliru": four white rows (alamat / kecamatan / titik peta / kode pos), each "tertulis" struck through (inline `textDecoration`, since `line-through` isn't compiled) → temuan → sumber → address + one-way note + phone box with "no second source" + landmarks beside a re-built embed → yellow "two Adira offices in Kab. Sumedang" → prose gadai → bordered card close | 4.7–11.7% vs all 27 |
+
+**Mayor Abdurachman – Sumedang (branch_id 35): name right, location wrong.**
+Dataset address "Jl. Raya Bandung - Sumedang No.170, Jatisari", postcode 45362
+and sub_district 3211030 = Tanjungsari. Jatisari is in Kec. Tanjungsari, and
+there's a separate Adira Tanjungsari listing (CID 7282596938490343984; dataset
+row 172). The page does NOT claim the address belongs to that office. The
+dataset coordinate is the centre of a zoom-12 embed over Bandung, 31.4 km away.
+The embed's place id no longer shows any card.
+The real office:
+- Maps "ADIRA FINANCE" — Kotakaler, Sumedang Utara, 8 reviews, pin
+  −6.8432958 / 107.9249762, CID 4477926622368794711.
+- "ATM DANAMON SUMEDANG ADIRA MAYOR ABDURACHMAN" — Jl. Mayor Abdurahman
+  No.103, about 4 m away.
+- Nominatim at the pin: "Adira, Gang Koramil".
+OSM "Jalan Mayor Abdurrahman" is oneway northbound. The road lies 13 m east of
+the pin, so the office is on the left for northbound traffic. Jl. Tampomas is
+oneway southbound.
+Postcode: three values in circulation (45362 / 45321 / 46521), so none is
+shown.
+Phones 0261-201099 / 201299 / 202190 and fax 208256 appear in the dataset
+only; the page says so.
+Embed was re-built from the place id centred on the pin and rendered to verify
+the card.
+Removed before build:
+- "kalau terlewat, putarnya lewat Jl. Tampomas" (the connection isn't proven);
+- "di tengah kota" (the office is 1.9 km from the alun-alun);
+- the Kompas history of Mayor Abdurahman (DNS failure, so not read).
+Overpass was busy; Nominatim search with the city appended worked for the
+landmarks.
+Audit 12/16, non-commodity, no red flags.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
