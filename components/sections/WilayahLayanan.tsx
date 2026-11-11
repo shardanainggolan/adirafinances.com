@@ -167,6 +167,10 @@ export default function WilayahLayanan() {
                 <Link className="text-primary font-semibold underline" href="/adira-finance-mayor-abdurachman-sumedang">
                   cabang Mayor Abdurachman, Sumedang
                 </Link>
+                ,{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-langkai-palangkaraya">
+                  cabang Langkai, Palangka Raya
+                </Link>
                 , dan{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-daan-mogot">
                   cabang Daan Mogot, Jakarta Barat
