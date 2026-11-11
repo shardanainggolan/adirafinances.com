@@ -1097,6 +1097,32 @@ Overpass was busy; Nominatim search with the city appended worked for the
 landmarks.
 Audit 12/16, non-commodity, no red flags.
 
+| `/adira-finance-langkai-palangkaraya` (2026-11-11) | **call script**: yellow hero (address, "listing hilang, telepon dulu", tel + anchor to script) → "Yang sudah pasti, yang belum" — four bordered cards with a status chip ("Ada sumbernya" yellow / "Belum pasti" grey + border) → grey "Empat pertanyaan saat menelepon …" — intro left, numbered white cards right → "Kalau nomornya tidak tersambung": three cards (eks-Mandala office / Kasongan / dark WA card) → prose gadai → bordered card close. **No map** | 3.9–8.1% vs all 28 |
+
+**Langkai – Palangka Raya (branch_id 121): WEAK EVIDENCE; the owner chose
+"build with honest disclosure" (asked first via AskUserQuestion).**
+- Address "Jl. RTA. Milono Km. 4,3": dataset plus idalamat.com (read; no
+  phone, no map).
+- OSM names the road "Jalan Raden Tumenggung Ario Milono", running through
+  Kel. Langkai. It carries two postcodes (73111 / 74874), so none is shown.
+- Phone 0536-3223701: dataset only, plus agent sites copying it.
+- The `gmaps_link` place id shows NO card when rendered.
+- Maps searches ("Adira Finance Palangkaraya", "Adira Kalimantan Tengah", …)
+  found no Adira office in Kota Palangka Raya.
+- Plan B shown on the page:
+  - ex-Mandala listing "PT MANDALA MULTIFINANCE Tbk CABANG KALIMANTAN TENGAH
+    KOTA PALANGKARAYA", Depan Polda Kalteng, Jl. Cilik Riwut Km 1, 36 reviews,
+    0812-5583-7259, still under the Mandala name. Merger cited from Kontan;
+    no claim that it processes Adira loans.
+  - Adira Kasongan, ±70 km (`query_place_id` link).
+**Tooling lesson: `maps.google.com/?cid=` redirect is NOT a reliable
+"listing exists" test.** The Mandala CID, a live listing, also failed to
+redirect while Sumedang's worked. Use the place-id embed render (card shown or
+not) instead. Google Maps search can also return nothing when rate-limited;
+retry later before concluding anything.
+- `hover:underline` is not compiled.
+- Audit 11/16: accuracy 2, because the office status itself is unknown.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
