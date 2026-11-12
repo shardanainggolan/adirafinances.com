@@ -1123,6 +1123,34 @@ retry later before concluding anything.
 - `hover:underline` is not compiled.
 - Audit 11/16: accuracy 2, because the office status itself is unknown.
 
+| `/adira-finance-wahidin-cirebon` (2026-11-12) | **road cross-section**: dark hero (No. 57, east side, ~500 m from Stasiun Cirebon, tel + Maps) → "Jl. Dr. Wahidin … punya dua jalur terpisah": a 4-block flex strip west→east (northbound lane / dark median, label sr-only + `text-white` / southbound lane / yellow "Adira No. 57"), Barat/Timur captions, then two cards "Datang dari utara" / "Datang dari selatan" → grey address + phone box ("no second source") + "Di Google Maps, yang muncul ATM-nya" beside the embed → landmarks + two nearest Adira offices (Kuningan 30.6 km, Jatibarang 38.1 km) → prose gadai → yellow card close | 11.1–14.3% vs all 29 |
+
+**Wahidin – Cirebon (branch_id 44): address right, pin = embed centre, phone
+single-source.**
+- `gmaps_link` is the ATM listing "ATM DANAMON CIREBON ADIRA WAHIDIN SUDIRO
+  HUSODO", Jl. Dr. Wahidin Sudirohusodo No.57, Sukapura, Kejaksan 45122,
+  33 reviews. Its address matches the dataset exactly. Its listed phone
+  "1 500 090" is the Danamon line, not the branch.
+- Nominatim reverse at the pin returns "Adira Finance, Jalan Dokter Wahidin
+  Sudirohusodo …", an independent OSM confirmation.
+- Maps search found no separate office listing in Kota Cirebon. The nearest
+  Adira listings are Kuningan and Jatibarang.
+- OSM: the road is two parallel oneway carriageways. Northbound runs ~28 m
+  west of the pin and southbound ~19 m west, so the office (east side) is
+  reached directly from the southbound lane. That is consistent with
+  left-hand traffic.
+- Phones 0231-230750 / 248979 / 225674 and faxes appear in the dataset and on
+  agent sites only. Every independent directory failed to open:
+  - panggon.com redirects to another site;
+  - foursquare requires login;
+  - petalokasi refused the connection.
+  A "No. 63" variant appeared only in a search summary, so it is not cited.
+- OSRM foot routing (routing.openstreetmap.de/routed-foot) works, but the
+  station → office route ran through unnamed gangs, so it isn't used as
+  directions.
+- Removed: "di jantung Kecamatan Kejaksan" (flourish).
+- Audit 12/16.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
