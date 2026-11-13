@@ -1151,6 +1151,31 @@ single-source.**
 - Removed: "di jantung Kecamatan Kejaksan" (flourish).
 - Audit 12/16.
 
+| `/adira-finance-binjai-medan` (2026-11-13) | **search box**: white hero (No. 12, Binjai Kota, 160 m from Kantor Walikota, tel + Maps) → yellow "Yang biasa diketik orang, dan jawabannya": four white cards, each opening with a pill-shaped fake search bar (inline SVG magnifier) holding the query ("adira finance binjai medan" / "adira finance medan" / "adira jl sultan hasanuddin binjai" / "pt adira finance binjai") and the answer below → address + phone + landmarks beside the embed → prose gadai → dark card close | 14.1–18.0% vs all 30 (highest so far, still far below 50%) |
+
+**Binjai (branch_id 89, "Binjai - Medan"): address and phone right; map,
+kecamatan and postcode belonged to a COMPETITOR.**
+- `gmaps_link` is "RADANA FINANCE CABANG BINJAI" (Jl. Sultan Hasanuddin,
+  Rambung Barat, Binjai Selatan 20742, 15 reviews), another finance company
+  on the same street.
+- The dataset's sub_district 1276010 (Binjai Selatan) and postcode 20742 match
+  the Radana card, not Adira.
+- Real office, two Maps listings ±1 m apart:
+  - "Adira Finance" — Jl. Sultan Hasanuddin No.12, Satria, Binjai Kota 20741,
+    4.7 (7);
+  - "Kantor Adira Binjai" — 1.0 (1).
+- Phone 061-8828880 and fax 061-8820479 are independently confirmed by
+  alamatelpon.com (Rosida Tri, 25 Feb 2019, read directly). That source lists
+  it as "cabang Medan 3 - Binjai" under the Medan heading, which explains the
+  "Binjai Medan" naming. The page states the listing as a fact, not as a
+  cause.
+- Binjai is its own city (1276), not Medan. The "adira finance medan" keyword
+  is answered by naming the dataset's Medan offices (Selayang, Titi Kuning,
+  Ringroad, Marelan) without addresses.
+- "12A" (dataset) vs "12" (Google, 2019): the page uses 12.
+- Nominatim "Polres Binjai" resolves to Dumai, so it isn't used.
+- Audit 12/16.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
