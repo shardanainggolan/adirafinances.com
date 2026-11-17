@@ -1176,6 +1176,37 @@ kecamatan and postcode belonged to a COMPETITOR.**
 - Nominatim "Polres Binjai" resolves to Dumai, so it isn't used.
 - Audit 12/16.
 
+| `/adira-finance-tegalrejo-yogyakarta` (2026-11-17) | **one kecamatan, two offices**: grey hero (Jl. HOS Cokroaminoto, west side, ±75 m south of the Jl. Kyai Mojo junction, tel + Maps) → "Satu kecamatan, dua kantor Adira": a bordered 2-pane split, yellow left (this page: house number 221 vs 232, phones, position) and white right (ITC Jl. Magelang 76, (0274) 623232 from ketikus 2023, Maps link). The divider classes weren't compiled, so the panes are separated by background only → address + phones with a per-number source label + landmarks beside the embed → three other Kota Yogyakarta Adira listings with distances → prose gadai → bordered card close | 11.3–15.5% vs all 31 |
+
+**Tegalrejo – Yogyakarta (branch_id 63): address/phone right; the embed
+points to a DIFFERENT Adira office in the same kecamatan.**
+- `gmaps_link` is "ITC Adira Multi Finance PT", Jl. Magelang No.76, Kutu
+  Asem, Karangwaru, Kec. Tegalrejo, "Kabupaten Sleman" 55242, no reviews.
+  - The dataset postcode 55242 came from this listing.
+  - Nominatim at the pin returns Sinduadi, Mlati, Sleman, so the card and OSM
+    disagree on the area.
+  - ketikus.com (Athar Emil, 2 Sep 2023, read) lists "Adira Multi Finance,
+    ITC" with (0274) 623232.
+- The Cokroaminoto office has listing "ADIRA FINANCE PT.", Jl. HOS
+  Cokroaminoto No.**232**, Tegalrejo 55244, no reviews or phone.
+  - The dataset and alamatpenting.com (read, undated) both say No.**221**.
+    Unresolved; the page shows both and steers by the junction instead.
+  - alamatpenting confirms 0274-555085 and fax 0274-555062. 0274-555007 and
+    fax 589859 are in the dataset only; the page labels each number's source.
+  - OSM: Jl. HOS Cokroaminoto (two-way) is ±40 m east of the pin, and the
+    junction with Jl. Kyai Mojo is ±75 m north.
+- **The Umbulharjo row (64) has the identical phones and faxes.** Its Google
+  listing (Jl. Ipda Tut Harsono) shows (0274) 9253000, so the 5550xx numbers
+  belong to Tegalrejo and were copied to Umbulharjo.
+- The `adiracabang.id` site was described in a search summary as "the Adira
+  branch site". It is NOT official (adira.co.id is), so it isn't cited.
+- **Shared-text drift:** the first build hit 20.1% overlap with Binjai. The
+  cause was the boilerplate close ("Kirim foto BPKB dan sebut kecamatan
+  Anda…") and the process sentence, which were near-identical across recent
+  pages. Rewritten → 15.5%. **Write the close and the process sentence fresh
+  for every page.**
+- Audit 12/16.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
