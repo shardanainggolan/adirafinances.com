@@ -1,12 +1,12 @@
-tolong buatkan page untuk cabang Adira Finance Binjai Medan
+tolong buatkan page untuk cabang Adira Finance Tegalrejo Yogyakarta
 
 Anda bisa cek metadatanya di public/analisis/adira-branches-full.csv
 
 =========================
 
-buatkan page ini unik, tidak template, tidak scaled content, tidak spam, hanya untuk page Adira Finance cabang Binjai Medan saja, berbeda dari page cabang lainnya
+buatkan page ini unik, tidak template, tidak scaled content, tidak spam, hanya untuk page Adira Finance cabang Tegalrejo Yogyakarta saja, berbeda dari page cabang lainnya
 
-Anda bisa menelusuri internet tentang Cabang Binjai Medan dari Adira Finance ini untuk dijadikan referensi membuat page ini
+Anda bisa menelusuri internet tentang Cabang Tegalrejo Yogyakarta dari Adira Finance ini untuk dijadikan referensi membuat page ini
 
 sehingga page cabang ini disukai oleh Google dan CTR nya tinggi
 
@@ -15,28 +15,28 @@ Pastikan menggunakan skill /google-quality-audit untuk menyediakan page berkuali
 pastikan mengikuti kebijakan Algoritma Google (Scaled Content, Helpful Content, Doorway)
 
 cover keyword berikut:
-- Adira Finance Binjai Medan, Intent: Navigational
-- Adira Finance Binjai, Intent: Navigational
-- Adira Finance Medan, Intent: Navigational
-- pt Adira Finance Binjai Medan, Intent: Navigational
-- pt Adira Finance Binjai, Intent: Navigational
-- pt Adira Finance Medan, Intent: Navigational
+- Adira Finance Tegalrejo Yogyakarta, Intent: Navigational
+- Adira Finance Tegalrejo, Intent: Navigational
+- Adira Finance Yogyakarta, Intent: Navigational
+- pt Adira Finance Tegalrejo Yogyakarta, Intent: Navigational
+- pt Adira Finance Tegalrejo, Intent: Navigational
+- pt Adira Finance Yogyakarta, Intent: Navigational
 - Adira Finance, Intent: Informational,
 - pt Adira Finance, Intent: Informational
 - gadai bpkb motor Adira Finance​​​​​, Intent: Informational
 - gadai bpkb mobil Adira Finance​​​​​, Intent: Informational
-- gadai bpkb motor Adira Finance​​​​​ Binjai Medan, Intent: Informational
-- gadai bpkb motor Adira Finance​​​​​ Binjai, Intent: Informational
-- gadai bpkb motor Adira Finance​​​​​ Medan, Intent: Informational
-- gadai bpkb mobil Adira Finance​​​​​ Binjai Medan, Intent: Informational
-- gadai bpkb mobil Adira Finance​​​​​ Binjai, Intent: Informational
-- gadai bpkb mobil Adira Finance​​​​​ Medan, Intent: Informational
+- gadai bpkb motor Adira Finance​​​​​ Tegalrejo Yogyakarta, Intent: Informational
+- gadai bpkb motor Adira Finance​​​​​ Tegalrejo, Intent: Informational
+- gadai bpkb motor Adira Finance​​​​​ Yogyakarta, Intent: Informational
+- gadai bpkb mobil Adira Finance​​​​​ Tegalrejo Yogyakarta, Intent: Informational
+- gadai bpkb mobil Adira Finance​​​​​ Tegalrejo, Intent: Informational
+- gadai bpkb mobil Adira Finance​​​​​ Yogyakarta, Intent: Informational
 
 mudah rank 1 Google untuk keyword tersebut dan sesuai Intent
 
 hindari menggunakan kata dan kalimat yang terlihat AI Generated, gunakan bahasa Indonesia yang natural dan mudah dimengerti pembaca di Indonesia
 
-page ini tetap untuk target user yang sedang mencari cara Gadai BPKB mobil dan motor di cabang Adira Finance Binjai Medan
+page ini tetap untuk target user yang sedang mencari cara Gadai BPKB mobil dan motor di cabang Adira Finance Tegalrejo Yogyakarta
 
 Gunakan resource SEO dari sumber yang valid, jangan gunakan halusinasi Anda
 jangan buat kesalahan
