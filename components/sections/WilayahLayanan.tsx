@@ -183,6 +183,10 @@ export default function WilayahLayanan() {
                 <Link className="text-primary font-semibold underline" href="/adira-finance-tegalrejo-yogyakarta">
                   cabang Tegalrejo, Yogyakarta
                 </Link>
+                ,{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-jendral-sudirman-tegal">
+                  cabang Jendral Sudirman, Tegal
+                </Link>
                 , dan{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-daan-mogot">
                   cabang Daan Mogot, Jakarta Barat

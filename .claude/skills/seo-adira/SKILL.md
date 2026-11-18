@@ -1207,6 +1207,31 @@ points to a DIFFERENT Adira office in the same kecamatan.**
   for every page.**
 - Audit 12/16.
 
+| `/adira-finance-jendral-sudirman-tegal` (2026-11-18) | **message to the driver**: white hero (address, "the street is only ~400 m, so the office is on it", tel + anchor) → yellow "Kirim alamatnya, jangan cuma nama kantornya": explanation + Maps address-search link on the left, a white card holding a grey chat-style message to an ojol driver on the right → address + 3 phones + "matches two directories" | landmarks measured to the ROAD SEGMENT → "Nama Adira lain yang muncul di sekitar Tegal" (Mandala Tegal + Slawi satellite) → prose gadai → dark card close. **No map embed** | ≤10.0% vs all 32 |
+
+**Jendral Sudirman – Tegal (branch_id 55): address and phones
+double-confirmed, but NO Google listing.**
+- Google Sites "Adira cabang TEGAL-Jend. Sudirman" (read) matches all three
+  phones and the fax. alamatpenting (read) matches 0283-322383, the fax, and
+  "No. 23/25 Rt/Rw 001/004". Both are undated.
+- The `gmaps_link` place "Adira Finance Cabang Tegal" renders NO card. Five
+  Maps searches don't surface the office.
+- "ATM Danamon TEGAL" (Jl. Jend. Sudirman No.**11A**, no Adira in the name)
+  does not prove the office is there, so it isn't used.
+- OSM "Jalan Jenderal Sudirman" in Kota Tegal is only ±0.40 km (lon
+  109.1329–109.1364). Landmarks are measured to the nearest point of the
+  segment, Cikuray-style, with directions from the segment midpoint.
+- Postcode conflict (dataset 52125 vs 52131 on the ATM card on the same
+  street): not shown.
+- Nominatim gave wrong places for "Balai Kota Tegal" (Balai Yasa) and
+  "Terminal Tegal" (Denpasar), so they're dropped.
+- Dataset rows "Ketanggungan - Tegal" (181) and "Bumiayu - Tegal" (183) are
+  district 3329 = **Kabupaten Brebes**. Don't present them as Tegal.
+- "Adira Finance Tegal" on Maps returns Mandala Finance Tegal (Jl. Sultan
+  Agung 31A, 13 reviews; merger cited from Kontan) and the Slawi satellite.
+- Close and process sentence written fresh, so overlap is ≤10%.
+- Audit 12/16. Accuracy is 3, not 4, because the office has no map pin.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
