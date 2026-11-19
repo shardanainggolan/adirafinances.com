@@ -1232,6 +1232,33 @@ double-confirmed, but NO Google listing.**
 - Close and process sentence written fresh, so overlap is ≤10%.
 - Audit 12/16. Accuracy is 3, not 4, because the office has no map pin.
 
+| `/adira-finance-ap-pettarani-makassar` (2026-11-19) | **two-level road**: yellow hero (Ruko Delta Ramayana Jade, Masale, Panakkukang 90232, tel + Maps) → "Kantornya di bawah, bukan di tol layang": text left, diagram right — a dark "Tol layang (atas)" band over the first two columns with two pillar strips, then "Jalur barat" / "Jalur timur" / yellow "Adira" blocks, Barat/Timur captions → address + 3 phones with per-number source + landmarks beside the embed → "Pettarani yang lain, Makassar yang lain" (Sinjai's Jl. AP Pettarani + two other Makassar Adira listings) → prose gadai → bordered card close | ≤15.9% vs all 33 |
+
+**AP Pettarani – Makassar (branch_id 130): clean row except the coordinate.**
+- The `gmaps_link` listing "PT. Adira Dinamika Multi Finance" is live: Delta
+  Ramayana Jade, Jl. A. P. Pettarani, Masale, Panakkukang 90232, 78 reviews.
+  - Maps search shows phone (0411) 421006 = dataset telp1, so it has a second
+    source.
+  - 421007 and 435333 are in the dataset only and are labelled that way.
+  - The card text contains garbage "CS (O856)_O4232655", which isn't quoted.
+- OSM: the road is a dual carriageway with **Jalan Tol Layang A.P. Pettarani
+  (motorway, bridge, layer 1–2) directly above**. The page's angle is that the
+  office is reached from the ground-level road, east side.
+- **Lane directions were dropped.** OSM says the east (near) carriageway runs
+  southbound, which fits left-hand traffic. But Google's rendered arrows on
+  the east carriageway looked northbound. Conflicting evidence, so neither is
+  stated. Rule: **before stating lane direction from OSM, compare with the
+  arrows on the rendered Google map.** Wahidin Cirebon was re-checked and its
+  arrows match OSM.
+- Other Makassar listings: "Adira Finance Cabang Makassar (Mobil)" at Jl.
+  Perintis Kemerdekaan 4 (4.7 km) and "Cab. Durable Mks" at Jl. Toddopuli Raya
+  23 (2.0 km).
+- Sinjai row 356 also uses "Jl. AP. Pettarani" (a different regency), so the
+  page names it.
+- The Gowa row (132) copies Perintis's (131) phones.
+- Removed: "sering bikin salah alamat" (an unsourced frequency claim).
+- Audit 12/16.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
