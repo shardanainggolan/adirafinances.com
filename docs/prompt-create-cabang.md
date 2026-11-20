@@ -1,12 +1,12 @@
-tolong buatkan page untuk cabang Adira Finance AP Pettarani Makassar
+tolong buatkan page untuk cabang Adira Finance Citra Raya Cikupa
 
 Anda bisa cek metadatanya di public/analisis/adira-branches-full.csv
 
 =========================
 
-buatkan page ini unik, tidak template, tidak scaled content, tidak spam, hanya untuk page Adira Finance cabang AP Pettarani Makassar saja, berbeda dari page cabang lainnya
+buatkan page ini unik, tidak template, tidak scaled content, tidak spam, hanya untuk page Adira Finance cabang Citra Raya Cikupa saja, berbeda dari page cabang lainnya
 
-Anda bisa menelusuri internet tentang Cabang AP Pettarani Makassar dari Adira Finance ini untuk dijadikan referensi membuat page ini
+Anda bisa menelusuri internet tentang Cabang Citra Raya Cikupa dari Adira Finance ini untuk dijadikan referensi membuat page ini
 
 sehingga page cabang ini disukai oleh Google dan CTR nya tinggi
 
@@ -15,28 +15,28 @@ Pastikan menggunakan skill /google-quality-audit untuk menyediakan page berkuali
 pastikan mengikuti kebijakan Algoritma Google (Scaled Content, Helpful Content, Doorway)
 
 cover keyword berikut:
-- Adira Finance AP Pettarani Makassar, Intent: Navigational
-- Adira Finance AP Pettarani, Intent: Navigational
-- Adira Finance Makassar, Intent: Navigational
-- pt Adira Finance AP Pettarani Makassar, Intent: Navigational
-- pt Adira Finance AP Pettarani, Intent: Navigational
-- pt Adira Finance Makassar, Intent: Navigational
+- Adira Finance Citra Raya Cikupa, Intent: Navigational
+- Adira Finance Citra Raya, Intent: Navigational
+- Adira Finance Cikupa, Intent: Navigational
+- pt Adira Finance Citra Raya Cikupa, Intent: Navigational
+- pt Adira Finance Citra Raya, Intent: Navigational
+- pt Adira Finance Cikupa, Intent: Navigational
 - Adira Finance, Intent: Informational,
 - pt Adira Finance, Intent: Informational
 - gadai bpkb motor Adira Finance​​​​​, Intent: Informational
 - gadai bpkb mobil Adira Finance​​​​​, Intent: Informational
-- gadai bpkb motor Adira Finance​​​​​ AP Pettarani Makassar, Intent: Informational
-- gadai bpkb motor Adira Finance​​​​​ AP Pettarani, Intent: Informational
-- gadai bpkb motor Adira Finance​​​​​ Makassar, Intent: Informational
-- gadai bpkb mobil Adira Finance​​​​​ AP Pettarani Makassar, Intent: Informational
-- gadai bpkb mobil Adira Finance​​​​​ AP Pettarani, Intent: Informational
-- gadai bpkb mobil Adira Finance​​​​​ Makassar, Intent: Informational
+- gadai bpkb motor Adira Finance​​​​​ Citra Raya Cikupa, Intent: Informational
+- gadai bpkb motor Adira Finance​​​​​ Citra Raya, Intent: Informational
+- gadai bpkb motor Adira Finance​​​​​ Cikupa, Intent: Informational
+- gadai bpkb mobil Adira Finance​​​​​ Citra Raya Cikupa, Intent: Informational
+- gadai bpkb mobil Adira Finance​​​​​ Citra Raya, Intent: Informational
+- gadai bpkb mobil Adira Finance​​​​​ Cikupa, Intent: Informational
 
 mudah rank 1 Google untuk keyword tersebut dan sesuai Intent
 
 hindari menggunakan kata dan kalimat yang terlihat AI Generated, gunakan bahasa Indonesia yang natural dan mudah dimengerti pembaca di Indonesia
 
-page ini tetap untuk target user yang sedang mencari cara Gadai BPKB mobil dan motor di cabang Adira Finance AP Pettarani Makassar
+page ini tetap untuk target user yang sedang mencari cara Gadai BPKB mobil dan motor di cabang Adira Finance Citra Raya Cikupa
 
 Gunakan resource SEO dari sumber yang valid, jangan gunakan halusinasi Anda
 jangan buat kesalahan

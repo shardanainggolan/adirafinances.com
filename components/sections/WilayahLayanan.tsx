@@ -191,6 +191,10 @@ export default function WilayahLayanan() {
                 <Link className="text-primary font-semibold underline" href="/adira-finance-ap-pettarani-makassar">
                   cabang AP Pettarani, Makassar
                 </Link>
+                ,{" "}
+                <Link className="text-primary font-semibold underline" href="/adira-finance-citra-raya-cikupa">
+                  cabang Citra Raya, Cikupa
+                </Link>
                 , dan{" "}
                 <Link className="text-primary font-semibold underline" href="/adira-finance-daan-mogot">
                   cabang Daan Mogot, Jakarta Barat
