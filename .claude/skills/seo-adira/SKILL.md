@@ -1259,6 +1259,34 @@ double-confirmed, but NO Google listing.**
 - Removed: "sering bikin salah alamat" (an unsourced frequency claim).
 - Audit 12/16.
 
+| `/adira-finance-citra-raya-cikupa` (2026-11-20) | **two-kecamatan ladder**: dark hero (Boulevard Blok L 01/15 R, east side, mouth of Jl. Lenso 2, tel + Maps) → "Citra Raya luas, ini posisi kantornya": text left, ladder right — a plain `<ol>` (a 4px yellow left rule was removed: impeccable flags side-tab accents as an AI tell), north→south: Hypermart / Terminal Trans Citraraya / Superindo / **Adira (yellow, Kec. Cikupa)** / Ciputra Hospital / Eco Plaza / Mal Ciputra (Kec. Panongan) → grey address + phone + "hours not shown" beside the embed → prose gadai → yellow card close with a new-angle question (BPKB in someone else's name / late tax / still on credit) | ≤13.9% vs all 34 |
+
+**Citra Raya – Cikupa (branch_id 5): cleanest row so far.**
+- The `gmaps_link` listing "Adira Finance Cikupa" is live and its address
+  matches the dataset exactly, 109 reviews.
+- Phone 021-59400382 is confirmed twice:
+  - opencorpdata.com for the same place id (it mirrors Google: "(021)
+    59400382");
+  - Google Sites "Adira cabang Cikupa-Citra Raya".
+- opencorpdata's hours "08.00–04.00" are nonsense, so no hours are shown.
+- Extra 594003xx numbers appeared only in a panggon search summary, so they
+  aren't used.
+- Lane direction stated: OSM (east carriageway southbound) AND the rendered
+  Google arrows (east ↓, west ↑) agree. This is the first application of the
+  new cross-check rule.
+- Nominatim: office in Cikupa, but Mal Ciputra Tangerang on the same
+  boulevard is in Ciakar, **Panongan**. Citra Raya spans two kecamatan; that
+  is the page's angle.
+- Overpass POI query (named mall/hospital/park/bus_station/supermarket within
+  2.5 km) gave better Citra Raya landmarks than Nominatim name guesses
+  ("Stasiun Cikupa" → a gas compressor; "Bundaran Citra Raya" → Citra Maja).
+- Removed:
+  - "di bagian utara boulevard" (the boulevard's extent is unknown);
+  - "tempat yang biasa dipakai orang" (a habit claim);
+  - "direktori yang membaca listing Google" (Google Sites doesn't).
+- Audit 13/16: accuracy 4. Every displayed fact has ≥2 sources or a direct
+  observation.
+
 ### ⚠️ Dataset coordinates are the embed's viewport centre, not the place (found 2026-10-29)
 
 **202 of the 203 rows that carry a place-type `gmaps_link` have
